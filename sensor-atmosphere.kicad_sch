@@ -3310,243 +3310,6 @@
 				)
 			)
 		)
-		(symbol "STEMMA_I2C_QT_1"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J2"
-				(at 6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "STEMMA_I2C_QT"
-				(at 12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_1_0_0"
-				(pin passive line
-					(at 1.27 -10.16 90)
-					(length 3.81)
-					(name "Mounting_Pad"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 7.62 270)
-					(length 3.81)
-					(name "Mounting_Pad"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_1_0_1"
-				(rectangle
-					(start -1.27 -6.35)
-					(end 3.81 3.81)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_1_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "VCC_1"
 			(power)
 			(pin_names
@@ -3837,12 +3600,6 @@
 		(uuid "23f99d60-209e-4d72-b03e-00c9698492e0")
 	)
 	(junction
-		(at 40.64 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce5f275-7adc-4319-b3d5-97795b81eabe")
-	)
-	(junction
 		(at 153.67 57.785)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3891,12 +3648,6 @@
 		(uuid "5017df8c-5fa5-404b-990f-6d8136a4201c")
 	)
 	(junction
-		(at 156.21 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62f33f10-12af-437d-894b-10d359e19608")
-	)
-	(junction
 		(at 143.51 33.655)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3931,12 +3682,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a04bfcec-f061-4853-97de-35aa49c8b249")
-	)
-	(junction
-		(at 34.29 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a30fd00f-34d5-4df0-b574-94eb64da6efb")
 	)
 	(junction
 		(at 76.2 57.785)
@@ -3989,6 +3734,24 @@
 	(no_connect
 		(at 81.915 156.845)
 		(uuid "ccfd4bfc-aa21-4381-878a-605f98aa8ad5")
+	)
+	(bus_entry
+		(at 40.64 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ab85de-6747-47af-9494-248d1ada83e7")
+	)
+	(bus_entry
+		(at 40.64 111.76)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bdac07-a1e1-4b5e-ae18-4f1fabb7a1d0")
 	)
 	(wire
 		(pts
@@ -4239,16 +4002,6 @@
 			(type default)
 		)
 		(uuid "3dc34dfe-5fb1-4f9e-9d7d-5267b9942e24")
-	)
-	(wire
-		(pts
-			(xy 30.48 124.46) (xy 34.29 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4332a6f8-c149-4b89-976b-c86e53e01cb9")
 	)
 	(polyline
 		(pts
@@ -4572,26 +4325,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 106.68) (xy 34.29 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c97b34-ea18-40a0-899d-d301800bf375")
-	)
-	(wire
-		(pts
-			(xy 40.64 119.38) (xy 156.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94210755-fe59-4496-880e-fca9ab28c84b")
-	)
-	(wire
-		(pts
 			(xy 102.235 164.465) (xy 90.17 164.465)
 		)
 		(stroke
@@ -4619,16 +4352,6 @@
 			(type default)
 		)
 		(uuid "9afd3b33-f023-4654-b88d-efd52757db35")
-	)
-	(wire
-		(pts
-			(xy 34.29 124.46) (xy 40.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce8798a-3c38-49ab-946a-554dd519d7a0")
 	)
 	(wire
 		(pts
@@ -4690,15 +4413,15 @@
 		)
 		(uuid "a7e7f415-c726-4869-8dda-5a5f6b980b1a")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 40.64 116.84) (xy 53.975 116.84)
+			(xy 35.56 120.65) (xy 38.1 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab1103b5-4b4e-4998-9263-2a2dc57e45df")
+		(uuid "a965af98-6e30-4758-9906-c292b6dabb43")
 	)
 	(wire
 		(pts
@@ -4709,16 +4432,6 @@
 			(type default)
 		)
 		(uuid "adfea0f2-ec69-4063-9d7a-00ba1f704065")
-	)
-	(wire
-		(pts
-			(xy 30.48 106.68) (xy 30.48 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7d2c99-9e9b-4ae8-a53f-6b626fac0fb1")
 	)
 	(wire
 		(pts
@@ -4819,6 +4532,16 @@
 			(type default)
 		)
 		(uuid "c485279e-5b59-432a-b320-abd02e5b4c5e")
+	)
+	(bus
+		(pts
+			(xy 38.1 114.3) (xy 38.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7659fe3-0153-416e-aaaa-6ef72994444b")
 	)
 	(wire
 		(pts
@@ -4970,6 +4693,16 @@
 		)
 		(uuid "e2a21b56-65da-481e-aa54-09b9475b7155")
 	)
+	(bus
+		(pts
+			(xy 38.1 116.84) (xy 38.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43f1a6c-8dcf-4400-ae6f-d531d7906d19")
+	)
 	(wire
 		(pts
 			(xy 76.2 50.8) (xy 76.2 57.785)
@@ -5059,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "f8a03ccf-bfe4-4a35-8c94-7293545cf51d")
-	)
-	(wire
-		(pts
-			(xy 40.64 119.38) (xy 40.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb29ee79-af04-40c2-a112-49c29492600d")
 	)
 	(wire
 		(pts
@@ -5420,7 +5143,7 @@
 		)
 		(uuid "9ea9f115-b243-4286-aaaa-91bd4b9077b2")
 	)
-	(label "SCK{slash}SCL"
+	(label "I2C.SCL"
 		(at 40.64 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5441,28 +5164,6 @@
 			(justify left bottom)
 		)
 		(uuid "a4b03b5b-2124-4edc-9edf-f49b4fabff34")
-	)
-	(label "VCC"
-		(at 40.64 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5d3b01c-490b-467b-9ce9-47e91bbec463")
-	)
-	(label "GND"
-		(at 40.64 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab2a13c5-0bef-40f8-9bb4-ea802a36a2a2")
 	)
 	(label "SDI_3V"
 		(at 215.9 62.865 0)
@@ -5497,7 +5198,7 @@
 		)
 		(uuid "c70d44ad-0ecd-46bb-93bd-269cb133366d")
 	)
-	(label "SDI{slash}SDA"
+	(label "I2C.SDA"
 		(at 40.64 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5518,6 +5219,18 @@
 			(justify left bottom)
 		)
 		(uuid "fec5fd93-b1f3-4a54-83d3-22371a6e1330")
+	)
+	(hierarchical_label "I2C{SCL SDA}"
+		(shape bidirectional)
+		(at 35.56 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f066a109-2bc0-46ea-8f0e-b0952576b8a5")
 	)
 	(symbol
 		(lib_name "Lab_3:STEMMA_I2C_QT")
@@ -5822,158 +5535,6 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "STEMMA_I2C_QT_1")
-		(lib_id "Lab_4:STEMMA_I2C_QT")
-		(at 35.56 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11fd20c2-afd0-4c9f-96ae-7953d8cfa838")
-		(property "Reference" "J4"
-			(at 33.02 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 43.18 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "DigiKey"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor P/N" "455-1804-1-ND "
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "JST Sales America Inc."
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "SM04B-SRSS-TB"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" ""
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 P/N" ""
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 P/N" ""
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "099f8b3e-1d3e-4a87-b5b2-afc62cda73db")
-		)
-		(pin "MP"
-			(uuid "1d80ff3b-f748-4e22-8c80-82dc52692c0d")
-		)
-		(pin "1"
-			(uuid "5800187b-b8fa-45dd-ac34-8e7a9256aeca")
-		)
-		(pin "2"
-			(uuid "770fb1ba-b4dd-4106-a3f4-61fa7d9044f9")
-		)
-		(pin "3"
-			(uuid "7df5337d-1fcf-410b-819c-6d5884e734cb")
-		)
-		(pin "4"
-			(uuid "1bf8f9b6-cdc9-4795-a5c5-ea2dc4a94281")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
-					(reference "J4")
 					(unit 1)
 				)
 			)

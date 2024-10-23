@@ -14,6 +14,18 @@
 		(comment 4 "EE 156 / Stanford University")
 	)
 	(lib_symbols)
+	(junction
+		(at 293.37 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e31b8959-e491-4ce9-b280-fd6495a42caf")
+	)
+	(junction
+		(at 293.37 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ec0807-de7c-444b-b3f6-fa38ea5f1ef6")
+	)
 	(wire
 		(pts
 			(xy 189.23 104.14) (xy 214.63 104.14)
@@ -24,6 +36,26 @@
 		)
 		(uuid "03217166-4acc-4c73-97c1-1fd0fc5c4740")
 	)
+	(bus
+		(pts
+			(xy 293.37 118.11) (xy 293.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440bdd4b-807c-4abf-9dd0-e4909e06b187")
+	)
+	(bus
+		(pts
+			(xy 303.53 105.41) (xy 293.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fae5676-1c37-4655-869a-3515dfbcd38d")
+	)
 	(wire
 		(pts
 			(xy 189.23 106.68) (xy 214.63 106.68)
@@ -33,6 +65,16 @@
 			(type default)
 		)
 		(uuid "6a50c559-7736-4094-8de7-b608a21a9ae8")
+	)
+	(bus
+		(pts
+			(xy 303.53 118.11) (xy 293.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b22848-ec5f-40ec-94b9-63d9e6515251")
 	)
 	(wire
 		(pts
@@ -53,6 +95,36 @@
 			(type default)
 		)
 		(uuid "aaf6bcdd-26c5-4049-9205-092f3cd809c5")
+	)
+	(bus
+		(pts
+			(xy 293.37 92.71) (xy 281.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d434d834-e654-4e84-b6fd-57b43b8b0d8b")
+	)
+	(bus
+		(pts
+			(xy 303.53 92.71) (xy 293.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f53f22-1a76-4077-a2f8-9ecc98ef6117")
+	)
+	(bus
+		(pts
+			(xy 293.37 105.41) (xy 293.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25cb252-5a9c-4ef7-a7cf-764c569dd505")
 	)
 	(wire
 		(pts
@@ -1087,8 +1159,8 @@
 		)
 	)
 	(sheet
-		(at 303.53 114.3)
-		(size 12.7 5.08)
+		(at 303.53 115.57)
+		(size 16.51 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1099,7 +1171,7 @@
 		)
 		(uuid "10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1")
 		(property "Sheetname" "Sensor - Atmosphere"
-			(at 303.53 113.5884 0)
+			(at 303.53 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,13 +1180,23 @@
 			)
 		)
 		(property "Sheetfile" "sensor-atmosphere.kicad_sch"
-			(at 303.53 119.9646 0)
+			(at 303.53 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 303.53 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b573da7-04be-4c0f-99e2-6395ba56a8cb")
 		)
 		(instances
 			(project "roamer"
@@ -1221,8 +1303,8 @@
 		)
 	)
 	(sheet
-		(at 303.53 101.6)
-		(size 12.7 5.08)
+		(at 303.53 102.87)
+		(size 16.51 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1233,7 +1315,7 @@
 		)
 		(uuid "51e979ab-bea6-4c65-a749-9f40ad447381")
 		(property "Sheetname" "Sensor - Air Quality"
-			(at 303.53 100.8884 0)
+			(at 303.53 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,13 +1324,23 @@
 			)
 		)
 		(property "Sheetfile" "sensor-air.kicad_sch"
-			(at 303.53 107.2646 0)
+			(at 303.53 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 303.53 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "635cd63c-3dbb-43b4-bb39-25fc0c63bbfe")
 		)
 		(instances
 			(project "roamer"
@@ -1297,8 +1389,8 @@
 		)
 	)
 	(sheet
-		(at 303.53 88.9)
-		(size 12.7 5.08)
+		(at 303.53 90.17)
+		(size 16.51 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1309,7 +1401,7 @@
 		)
 		(uuid "7697eacc-831c-4a5e-b109-0bbe6f3888c4")
 		(property "Sheetname" "Sensor - Current"
-			(at 303.53 88.1884 0)
+			(at 303.53 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,13 +1410,23 @@
 			)
 		)
 		(property "Sheetfile" "sensor-current.kicad_sch"
-			(at 303.53 94.5646 0)
+			(at 303.53 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 303.53 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d9f9449-d81a-437a-81a1-3e462b67184f")
 		)
 		(instances
 			(project "roamer"
@@ -1415,7 +1517,7 @@
 			(uuid "fddb9728-faac-4a42-a638-d0f2393d381b")
 		)
 		(pin "I2C{SDA SCL}" bidirectional
-			(at 281.94 86.36 0)
+			(at 281.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
