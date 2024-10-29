@@ -2385,7 +2385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d6cc78-35bf-46fa-b85d-1890de8333e0")
-		(property "Reference" "R9D"
+		(property "Reference" "R9D1"
 			(at 243.84 209.5499 0)
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(reference "R9D")
+					(reference "R9D1")
 					(unit 1)
 				)
 			)

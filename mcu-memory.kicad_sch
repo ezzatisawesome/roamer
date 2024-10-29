@@ -794,7 +794,7 @@
 		(fields_autoplaced yes)
 		(uuid "70550828-9362-4fca-a6ca-27803077dc42")
 		(property "Reference" "U1"
-			(at 130.81 99.0601 0)
+			(at 130.81 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +803,7 @@
 			)
 		)
 		(property "Value" "2MB Flash"
-			(at 130.81 96.5201 0)
+			(at 130.81 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)

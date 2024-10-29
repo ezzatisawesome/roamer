@@ -1351,7 +1351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f0452b-4213-41a2-a058-5abb8238b312")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 146.9741 82.55 0)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)

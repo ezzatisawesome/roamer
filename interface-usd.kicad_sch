@@ -1097,7 +1097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MEM2075-00-140-01-A:GCT_MEM2075-00-140-01-A"
+		(property "Footprint" "footprints:GCT_MEM2075-00-140-01-A"
 			(at 142.24 88.9 0)
 			(effects
 				(font
