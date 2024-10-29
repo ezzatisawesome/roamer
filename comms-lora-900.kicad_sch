@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "eaca21a6-a835-40db-9090-b0ad2c2317ef")
 	(paper "A4")
+	(title_block
+		(company "catbranchman")
+		(comment 1 "Electrical Engineering Department")
+		(comment 2 "EE 156 / Stanford University")
+		(comment 3 "Flight Club, W6YX, Endurance")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
@@ -1178,7 +1184,7 @@
 		)
 		(uuid "9f96dae1-4b17-40c6-abb4-bcddc2f8d223")
 	)
-	(hierarchical_label "~{LORA_RESET}"
+	(hierarchical_label "~{RESET_LORA_900}"
 		(shape input)
 		(at 129.54 102.87 180)
 		(fields_autoplaced yes)
@@ -1256,13 +1262,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7041e507-7859-4bfb-a971-b92626975335")
+			(uuid "265ac9b2-f516-47b1-b3c7-47dd55216ac3")
 		)
 		(pin "1"
-			(uuid "9431aafd-fe5a-4818-8bdd-3181333aa049")
+			(uuid "808669d0-b49a-44e7-8b35-fd8702a7874e")
 		)
 		(instances
-			(project ""
+			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "J3")
 					(unit 1)
@@ -1326,7 +1332,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5d3682a-45ed-4a5f-89e8-fd010fc45f06")
+			(uuid "b08874ec-3ea0-4a5f-aea8-df2d6908000e")
 		)
 		(instances
 			(project "roamer"
@@ -1391,13 +1397,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "39478edc-38c9-431c-bc52-2f2458e63e60")
+			(uuid "1d5aca3b-1c36-47b6-8cbd-cf4fc2fb82b9")
 		)
 		(pin "2"
-			(uuid "09899626-5edf-4f67-9ed1-98d563d5dd41")
+			(uuid "44e771c2-483b-47a1-a870-218f21dafeec")
 		)
 		(instances
-			(project ""
+			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "C11")
 					(unit 1)
@@ -1460,7 +1466,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71d23b1-a14a-4d11-bd4b-152e15278000")
+			(uuid "280d827f-6764-4b00-b378-108e64afe144")
 		)
 		(instances
 			(project "roamer"
@@ -1527,52 +1533,52 @@
 			)
 		)
 		(pin "4"
-			(uuid "7985b975-bc04-4ba7-9097-2a242e5faaaa")
+			(uuid "77a79262-c25d-442a-93b7-78bf1422e500")
 		)
 		(pin "9"
-			(uuid "b23e0668-930e-4a5f-b5f6-494478beb157")
+			(uuid "327aa32a-ced2-41dc-8673-ddae392df033")
 		)
 		(pin "14"
-			(uuid "aaef4f72-0c0a-4f8d-bf62-73bfe5745875")
+			(uuid "5595b110-2d12-4759-aa7e-c2858a3d0939")
 		)
 		(pin "5"
-			(uuid "c50f60e3-e074-40ea-a2c0-fafe58b03358")
+			(uuid "6d5b6747-56d7-4318-8b8b-ca163bce43ee")
 		)
 		(pin "10"
-			(uuid "f7bf0ed4-8886-4504-8012-4f0d084abbd7")
+			(uuid "3318e753-696c-4a7d-83f6-104ccba41094")
 		)
 		(pin "2"
-			(uuid "c1a2beae-5256-4fe8-9632-229692d8ec61")
+			(uuid "33d0266c-d95f-46b5-9b99-e8c06e859f31")
 		)
 		(pin "11"
-			(uuid "94c79c2e-ebfe-413f-b598-1ecbc5d4d8ee")
+			(uuid "352834c5-b2ba-44f2-97f0-4f598380abee")
 		)
 		(pin "16"
-			(uuid "a585ae01-84cc-478d-907c-162d379703c2")
+			(uuid "6491fb5d-5968-4593-b241-d1a86fd537ca")
 		)
 		(pin "8"
-			(uuid "ef8c647c-7339-4aca-a6d6-d2358f08f6a1")
+			(uuid "40d61516-218f-4c15-aebe-9df39f6d689b")
 		)
 		(pin "7"
-			(uuid "84ad8d08-1bbf-4f1a-94df-373cc3c41155")
+			(uuid "dbefece7-d0cc-4fb9-afa1-ad49ab2146c2")
 		)
 		(pin "12"
-			(uuid "b8d5e439-6e98-4743-92fe-2ada56bcf58f")
+			(uuid "e3af93e4-a19b-4522-ba6e-cfd371fee745")
 		)
 		(pin "1"
-			(uuid "5d0a8c2d-ac0a-4d76-8acc-dbc40faeff09")
+			(uuid "1f64a30b-3c2b-4fa6-8166-0e867e1c4c02")
 		)
 		(pin "13"
-			(uuid "c1a1b778-e077-45a0-bcd3-8f7f1e1e20d8")
+			(uuid "23049e6e-b9a6-4bd1-aaf6-bd32e7d93cd7")
 		)
 		(pin "6"
-			(uuid "60614ea7-5f27-484f-b5dc-7748d0d41e93")
+			(uuid "02b2ab76-841c-4cbf-ac09-951127d5dd29")
 		)
 		(pin "3"
-			(uuid "abe35ed2-b9c5-4ac3-89e7-8b638d9a83df")
+			(uuid "7fad3967-5bc4-4b60-9ea9-72a8f4532af7")
 		)
 		(pin "15"
-			(uuid "94d6748e-e276-4f13-bdd4-79ffed918b76")
+			(uuid "d69155ff-7682-48c3-9ae8-3eb411f1dab6")
 		)
 		(instances
 			(project "roamer"
@@ -1638,7 +1644,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eb6e13e-1718-45df-a595-ff01b72705bb")
+			(uuid "d5a51d85-7a3c-4430-ae55-5a6e0fbb2984")
 		)
 		(instances
 			(project "roamer"
@@ -1704,7 +1710,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f08f3067-481e-404e-9ebf-2dd682d9549b")
+			(uuid "a079ab5f-b699-4c08-8d13-53205525ed91")
 		)
 		(instances
 			(project "roamer"

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ffad924e-9297-46ad-b76a-da184dfae026")
 	(paper "A4")
+	(title_block
+		(company "catbranchman")
+		(comment 1 "Electrical Engineering Department")
+		(comment 2 "EE 156 / Stanford University")
+		(comment 3 "Flight Club, W6YX, Endurance")
+	)
 	(lib_symbols
 		(symbol "Sensor:INA260"
 			(exclude_from_sim no)
@@ -375,6 +381,126 @@
 				)
 			)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -502,6 +628,16 @@
 		)
 		(uuid "75733ed7-2e8d-460a-9726-16ea8759ea91")
 	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047a9753-4611-4b44-9653-c130c8697c84")
+	)
 	(bus
 		(pts
 			(xy 186.69 100.33) (xy 186.69 102.87)
@@ -511,6 +647,16 @@
 			(type default)
 		)
 		(uuid "0f148960-7236-455d-8167-0b7bf44161c8")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de3811f-80f8-4094-8a31-084bbe51286d")
 	)
 	(wire
 		(pts
@@ -561,6 +707,16 @@
 			(type default)
 		)
 		(uuid "98ba406a-ae5c-4975-8dcb-358c104790cd")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990c8658-3a47-459a-8a8a-1a6f8518c372")
 	)
 	(bus
 		(pts
@@ -655,6 +811,97 @@
 			(justify left)
 		)
 		(uuid "8ca11f13-6044-403b-95c7-927b9e36f983")
+	)
+	(hierarchical_label "IN-"
+		(shape output)
+		(at 129.54 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba7fd0d4-1a5e-4230-8f2a-68b7cf55c428")
+	)
+	(hierarchical_label "IN+"
+		(shape input)
+		(at 129.54 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e604666d-64e5-4e0b-96ac-0e1adf231562")
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 130.81 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0651d079-d801-4dd2-aa04-f77f5f20a8b4")
+		(property "Reference" "#PWR053"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 127 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c76482-76db-4b4e-8aa6-182d5b3ec688")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/7697eacc-831c-4a5e-b109-0bbe6f3888c4"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

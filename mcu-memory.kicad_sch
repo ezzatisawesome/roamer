@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "95ad4692-adde-4b1c-bc6c-72c5f7c3c46e")
 	(paper "A4")
+	(title_block
+		(title "MCU - Memory")
+		(rev "0.1")
+		(company "catbranchman")
+		(comment 1 "Electrical Engineering Department")
+		(comment 2 "EE 156 / Stanford University")
+		(comment 3 "Flight Club, W6YX, Endurance")
+	)
 	(lib_symbols
 		(symbol "Memory_Flash:AT25SF081-SSHD-X"
 			(exclude_from_sim no)
@@ -785,7 +793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70550828-9362-4fca-a6ca-27803077dc42")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 130.81 99.0601 0)
 			(effects
 				(font
@@ -794,7 +802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AT25SF081-SSHD-X"
+		(property "Value" "2MB Flash"
 			(at 130.81 96.5201 0)
 			(effects
 				(font
@@ -812,7 +820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
+		(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00473-GD25Q16E-Rev1.2.pdf"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -821,7 +829,97 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
+		(property "Description" "FLASH - NOR Memory IC 16Mbit SPI - Quad 1/0 133 MHz 7 ns 8-USON (2x3)"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "GigaDevice Semiconductor (HK) Limited"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GD25Q16ETIGR"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "1970-GD25Q16ETIGRCT-ND"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.74"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.59060"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -857,7 +955,7 @@
 		(instances
 			(project ""
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/2af03a7b-eb0a-4c9d-bb49-ade4165c64a7"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)

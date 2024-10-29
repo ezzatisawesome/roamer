@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "f56a044e-a805-4ec4-bd3a-a7431df8f60a")
 	(paper "A4")
+	(title_block
+		(company "catbranchman")
+		(comment 1 "Electrical Engineering Department")
+		(comment 2 "EE 156 / Stanford University")
+		(comment 3 "Flight Club, W6YX, Endurance")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names

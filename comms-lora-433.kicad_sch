@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "eaca21a6-a835-40db-9090-b0ad2c2317ef")
 	(paper "A4")
+	(title_block
+		(company "catbranchman")
+		(comment 1 "Electrical Engineering Department")
+		(comment 2 "EE 156 / Stanford University")
+		(comment 3 "Flight Club, W6YX, Endurance")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
@@ -297,7 +303,7 @@
 				)
 			)
 		)
-		(symbol "RF_Module:RFM95W-915S2"
+		(symbol "RF_Module:RFM69W"
 			(pin_names
 				(offset 1.016)
 			)
@@ -305,34 +311,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.414 11.684 0)
+				(at -3.81 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "RFM95W-915S2"
-				(at 1.524 11.43 0)
+			(property "Value" "RFM69W"
+				(at -7.62 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at -83.82 41.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
-				(at -83.82 41.91 0)
+			(property "Footprint" "RF_Module:HOPERF_RFM69HW"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -340,7 +335,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbe34756e1.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ISM Radio Transceiver Module, SPI interface"
 				(at 0 0 0)
 				(effects
 					(font
@@ -349,7 +353,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low power long range transceiver module"
+			(property "ki_keywords" "Radio, ISM, Transceiver, Module, AES"
 				(at 0 0 0)
 				(effects
 					(font
@@ -358,7 +362,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "HOPERF*RFM9XW*"
+			(property "ki_fp_filters" "HOPERF*RFM69HW*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -367,10 +371,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "RFM95W-915S2_0_1"
+			(symbol "RFM69W_0_1"
 				(rectangle
 					(start -10.16 10.16)
-					(end 10.16 -12.7)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -380,11 +384,11 @@
 					)
 				)
 			)
-			(symbol "RFM95W-915S2_1_1"
-				(pin power_in line
-					(at -2.54 -15.24 90)
+			(symbol "RFM69W_1_1"
+				(pin input line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "RESET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -399,10 +403,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
+				(pin output line
+					(at 12.7 7.62 180)
 					(length 2.54)
-					(name "GND"
+					(name "ANA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -417,10 +421,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "DIO3"
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -428,132 +432,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "DIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "DIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "DIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "DIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -571,7 +449,43 @@
 							)
 						)
 					)
-					(number "4"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -589,6 +503,96 @@
 							)
 						)
 					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -10.16 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "DIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "DIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "DIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "5"
 						(effects
 							(font
@@ -598,9 +602,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -5.08 0)
+					(at 12.7 -5.08 180)
 					(length 2.54)
-					(name "RESET"
+					(name "DIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -616,7 +620,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 2.54 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "DIO5"
 						(effects
@@ -634,9 +638,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "GND"
+					(name "3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -651,10 +655,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 7.62 180)
+				(pin power_in line
+					(at 2.54 -12.7 90)
 					(length 2.54)
-					(name "ANT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -889,22 +893,16 @@
 		)
 	)
 	(junction
-		(at 144.78 114.3)
+		(at 132.08 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88ab8d78-e838-4700-9982-94cc29fc0d4d")
+		(uuid "81b6cb3e-723e-491e-8ddd-4d6e455b1d80")
 	)
 	(junction
 		(at 144.78 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb5f0f5-2136-4d9b-a2a9-78d660ac3b0c")
-	)
-	(junction
-		(at 132.08 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1ebd3e1-4616-4c8c-9dd3-cd3904117343")
 	)
 	(bus_entry
 		(at 111.76 92.71)
@@ -932,16 +930,6 @@
 			(type default)
 		)
 		(uuid "dad807d3-98ce-45b7-9f02-ec7087a43009")
-	)
-	(wire
-		(pts
-			(xy 147.32 113.03) (xy 147.32 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a590b83-e102-4ce7-a25b-64f8abfd256a")
 	)
 	(wire
 		(pts
@@ -985,16 +973,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377828c2-8ba8-4971-8f39-7f6461d2ddbf")
-	)
-	(wire
-		(pts
 			(xy 127 97.79) (xy 132.08 97.79)
 		)
 		(stroke
@@ -1012,6 +990,16 @@
 			(type default)
 		)
 		(uuid "65e88356-978b-4468-9462-d4e8203f81fb")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d833229-5ae2-46ca-bc49-666ec530a01a")
 	)
 	(wire
 		(pts
@@ -1045,36 +1033,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 133.35 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05d8b48-6166-4ddb-b064-d09e86148ae1")
-	)
-	(wire
-		(pts
-			(xy 142.24 113.03) (xy 142.24 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b449959c-bfdf-4176-9a3c-ccdf1f159252")
-	)
-	(wire
-		(pts
-			(xy 142.24 114.3) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f9cc88-3e53-4e29-a9f4-82e85c910e09")
-	)
-	(wire
-		(pts
 			(xy 111.76 92.71) (xy 132.08 92.71)
 		)
 		(stroke
@@ -1082,16 +1040,6 @@
 			(type default)
 		)
 		(uuid "c5d71504-2b27-46ec-a0df-bda26a481fde")
-	)
-	(wire
-		(pts
-			(xy 144.78 114.3) (xy 144.78 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e23b32-17d7-4e60-bb37-6dc550b6d940")
 	)
 	(bus
 		(pts
@@ -1102,16 +1050,6 @@
 			(type default)
 		)
 		(uuid "daef83ac-e2a0-4cd9-a73a-ae7aef0729c4")
-	)
-	(wire
-		(pts
-			(xy 147.32 114.3) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4d8fb6-0b0e-4b6c-93f3-a92964b43422")
 	)
 	(wire
 		(pts
@@ -1166,7 +1104,7 @@
 		)
 		(uuid "c5d88b04-b8ff-425a-9f66-ff6cc2c5d8f6")
 	)
-	(hierarchical_label "CS_LORA_900"
+	(hierarchical_label "CS_LORA_433"
 		(shape input)
 		(at 127 97.79 180)
 		(fields_autoplaced yes)
@@ -1178,7 +1116,7 @@
 		)
 		(uuid "9f96dae1-4b17-40c6-abb4-bcddc2f8d223")
 	)
-	(hierarchical_label "~{LORA_RESET}"
+	(hierarchical_label "~{RESET_LORA_433}"
 		(shape input)
 		(at 129.54 102.87 180)
 		(fields_autoplaced yes)
@@ -1203,6 +1141,118 @@
 		(uuid "fb2a6e0c-5b81-4591-a41b-f2082cd47731")
 	)
 	(symbol
+		(lib_id "RF_Module:RFM69W")
+		(at 144.78 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0360c08a-337e-4dde-9852-865bc18e9b6f")
+		(property "Reference" "U9"
+			(at 146.9741 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RFM69W"
+			(at 146.9741 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:HOPERF_RFM69HW"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbe34756e1.pdf"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ISM Radio Transceiver Module, SPI interface"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "50ef9254-3d58-4766-a636-990129b69e0b")
+		)
+		(pin "3"
+			(uuid "85a3cae5-6a3a-474d-ab4e-2c26e6df8278")
+		)
+		(pin "2"
+			(uuid "1e4a4ecd-a66b-40f4-90f2-6fd4a144a97c")
+		)
+		(pin "4"
+			(uuid "e7ea76cc-bf2d-4f5d-aa30-83702dafe7e5")
+		)
+		(pin "11"
+			(uuid "daae95b9-ecfe-4b20-8a14-fe0c2f1382a2")
+		)
+		(pin "1"
+			(uuid "39687041-5810-40e1-9dd3-47bc8c741ee4")
+		)
+		(pin "13"
+			(uuid "94519ccd-c427-4981-9cd3-14ffcd78dec6")
+		)
+		(pin "12"
+			(uuid "88acb1f3-edd4-40fc-b83b-25d7f4a97b4c")
+		)
+		(pin "5"
+			(uuid "648b20c4-9704-4159-b6bf-df1b9d5a9094")
+		)
+		(pin "14"
+			(uuid "ecf7908c-432a-45d2-90c8-b512aff84836")
+		)
+		(pin "6"
+			(uuid "79028735-8c13-4392-b766-c43187bbcdcc")
+		)
+		(pin "9"
+			(uuid "a93901d4-a16a-40d5-8dd4-b97510c66eb2")
+		)
+		(pin "15"
+			(uuid "37df8549-1280-43ed-b7c9-73506556b3e7")
+		)
+		(pin "7"
+			(uuid "c76326c8-ea5e-49cc-bea4-ff7769833e57")
+		)
+		(pin "8"
+			(uuid "60b49766-a85f-43b1-93af-6a217fd66057")
+		)
+		(pin "10"
+			(uuid "07dce14d-8db7-4c29-be00-da701f274c32")
+		)
+		(instances
+			(project ""
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 187.96 90.17 0)
 		(unit 1)
@@ -1212,7 +1262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5ed664-477f-4fe6-9cc9-268540997b02")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 187.4404 83.82 0)
 			(effects
 				(font
@@ -1256,15 +1306,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7041e507-7859-4bfb-a971-b92626975335")
+			(uuid "265ac9b2-f516-47b1-b3c7-47dd55216ac3")
 		)
 		(pin "1"
-			(uuid "9431aafd-fe5a-4818-8bdd-3181333aa049")
+			(uuid "808669d0-b49a-44e7-8b35-fd8702a7874e")
 		)
 		(instances
-			(project ""
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "J3")
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1280,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2746db2c-61c3-4ec1-9647-31c8542bae60")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR058"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -1326,12 +1376,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5d3682a-45ed-4a5f-89e8-fd010fc45f06")
+			(uuid "b08874ec-3ea0-4a5f-aea8-df2d6908000e")
 		)
 		(instances
 			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "#PWR039")
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1347,7 +1397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8fbc84-0c7d-4afb-8fca-7e90b21d9d99")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 137.16 71.12 90)
 			(effects
 				(font
@@ -1391,15 +1441,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "39478edc-38c9-431c-bc52-2f2458e63e60")
+			(uuid "1d5aca3b-1c36-47b6-8cbd-cf4fc2fb82b9")
 		)
 		(pin "2"
-			(uuid "09899626-5edf-4f67-9ed1-98d563d5dd41")
+			(uuid "44e771c2-483b-47a1-a870-218f21dafeec")
 		)
 		(instances
-			(project ""
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "C11")
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1415,7 +1465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6222afb3-328a-40a8-9ddf-280c5ce10a7f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR059"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -1460,124 +1510,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71d23b1-a14a-4d11-bd4b-152e15278000")
+			(uuid "280d827f-6764-4b00-b378-108e64afe144")
 		)
 		(instances
 			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Module:RFM95W-915S2")
-		(at 144.78 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87f0452b-4213-41a2-a058-5abb8238b312")
-		(property "Reference" "U3"
-			(at 146.9741 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RFM95W-915S2"
-			(at 146.9741 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
-			(at 60.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7985b975-bc04-4ba7-9097-2a242e5faaaa")
-		)
-		(pin "9"
-			(uuid "b23e0668-930e-4a5f-b5f6-494478beb157")
-		)
-		(pin "14"
-			(uuid "aaef4f72-0c0a-4f8d-bf62-73bfe5745875")
-		)
-		(pin "5"
-			(uuid "c50f60e3-e074-40ea-a2c0-fafe58b03358")
-		)
-		(pin "10"
-			(uuid "f7bf0ed4-8886-4504-8012-4f0d084abbd7")
-		)
-		(pin "2"
-			(uuid "c1a2beae-5256-4fe8-9632-229692d8ec61")
-		)
-		(pin "11"
-			(uuid "94c79c2e-ebfe-413f-b598-1ecbc5d4d8ee")
-		)
-		(pin "16"
-			(uuid "a585ae01-84cc-478d-907c-162d379703c2")
-		)
-		(pin "8"
-			(uuid "ef8c647c-7339-4aca-a6d6-d2358f08f6a1")
-		)
-		(pin "7"
-			(uuid "84ad8d08-1bbf-4f1a-94df-373cc3c41155")
-		)
-		(pin "12"
-			(uuid "b8d5e439-6e98-4743-92fe-2ada56bcf58f")
-		)
-		(pin "1"
-			(uuid "5d0a8c2d-ac0a-4d76-8acc-dbc40faeff09")
-		)
-		(pin "13"
-			(uuid "c1a1b778-e077-45a0-bcd3-8f7f1e1e20d8")
-		)
-		(pin "6"
-			(uuid "60614ea7-5f27-484f-b5dc-7748d0d41e93")
-		)
-		(pin "3"
-			(uuid "abe35ed2-b9c5-4ac3-89e7-8b638d9a83df")
-		)
-		(pin "15"
-			(uuid "94d6748e-e276-4f13-bdd4-79ffed918b76")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "U3")
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1585,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 116.84 0)
+		(at 147.32 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,8 +1531,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d660535-1429-46a1-bab8-3fd519d3179e")
-		(property "Reference" "#PWR037"
-			(at 144.78 123.19 0)
+		(property "Reference" "#PWR060"
+			(at 147.32 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 121.92 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 116.84 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 116.84 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 116.84 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,12 +1576,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eb6e13e-1718-45df-a595-ff01b72705bb")
+			(uuid "d5a51d85-7a3c-4430-ae55-5a6e0fbb2984")
 		)
 		(instances
 			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "#PWR037")
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55d4fc5-1b45-4e02-a238-1a9e8f3ab52e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR061"
 			(at 194.31 96.52 0)
 			(effects
 				(font
@@ -1704,12 +1642,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f08f3067-481e-404e-9ebf-2dd682d9549b")
+			(uuid "a079ab5f-b699-4c08-8d13-53205525ed91")
 		)
 		(instances
 			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "#PWR036")
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

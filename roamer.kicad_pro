@@ -633,10 +633,6 @@
       "Neopixel"
     ],
     [
-      "74b4b058-6b85-4b9e-95dc-72d767f949d9",
-      "Comms - LoRa"
-    ],
-    [
       "8b882434-0721-40fe-a26c-3dd045b3f675",
       "Power - Battery"
     ],
@@ -647,6 +643,18 @@
     [
       "e9b3da3a-64c8-4ad5-ba76-a4a7346ea25f",
       "Interface - uUSB"
+    ],
+    [
+      "544d54f1-dde3-4fcc-ac29-865cf5bd110b",
+      "Interface - uSD"
+    ],
+    [
+      "74b4b058-6b85-4b9e-95dc-72d767f949d9",
+      "Comms - LoRa 900"
+    ],
+    [
+      "27e0c772-2e0b-4398-8c51-a65e2e356334",
+      "Comms - LoRa 433"
     ],
     [
       "7697eacc-831c-4a5e-b109-0bbe6f3888c4",
