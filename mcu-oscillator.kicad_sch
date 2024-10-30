@@ -5,6 +5,7 @@
 	(uuid "01da2d8d-530e-452d-8507-11a042a6b9d7")
 	(paper "A4")
 	(title_block
+		(title "MCU - Oscillator")
 		(company "catbranchman")
 		(comment 1 "Electrical Engineering Department")
 		(comment 2 "EE 156 / Stanford University")
