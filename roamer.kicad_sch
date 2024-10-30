@@ -3433,16 +3433,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CARD_DETECT" output
-			(at 252.73 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "356d7715-f09f-4232-9b55-ae2cba6052cd")
-		)
 		(pin "SPI{SCK MOSI MISO}" bidirectional
 			(at 252.73 71.12 180)
 			(effects
@@ -3462,6 +3452,16 @@
 				(justify left)
 			)
 			(uuid "f0d93ec5-c2c5-409f-af86-2b3423266cfc")
+		)
+		(pin "uSD_DETECT" output
+			(at 252.73 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79763d51-3ba4-4dda-a55a-57a23123bfcb")
 		)
 		(instances
 			(project "roamer"
@@ -3893,7 +3893,7 @@
 		)
 		(uuid "beda7724-0f76-4222-b818-cdbe579d0fe4")
 		(property "Sheetname" "Bus - I2C"
-			(at 234.95 128.778 0)
+			(at 235.966 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)

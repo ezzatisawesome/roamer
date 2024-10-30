@@ -1082,7 +1082,7 @@
 		)
 		(uuid "105693c2-664d-45ab-93ee-b96f0c1a452f")
 	)
-	(hierarchical_label "CARD_DETECT"
+	(hierarchical_label "uSD_DETECT"
 		(shape output)
 		(at 179.07 88.9 0)
 		(fields_autoplaced yes)
