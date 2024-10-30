@@ -11,6 +11,108 @@
 		(comment 3 "Flight Club, W6YX, Endurance")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -254,13 +356,25 @@
 		)
 	)
 	(junction
-		(at 97.79 81.28)
+		(at 135.89 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08db5255-eb7f-4aaf-b878-260903435039")
+	)
+	(junction
+		(at 113.03 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d08b87f-a648-4593-a7d3-a75d9b554e03")
 	)
+	(junction
+		(at 135.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63d9831-03b5-4ee7-9a08-9db17ce4de96")
+	)
 	(bus_entry
-		(at 119.38 85.09)
+		(at 148.59 102.87)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -269,7 +383,7 @@
 		(uuid "68379e19-9fc1-45fb-b3cb-16d1798666b2")
 	)
 	(bus_entry
-		(at 119.38 77.47)
+		(at 148.59 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -279,7 +393,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 97.79 81.28)
+			(xy 106.68 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +403,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 81.28) (xy 97.79 85.09)
+			(xy 113.03 99.06) (xy 113.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +413,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 105.41 85.09)
+			(xy 113.03 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -309,7 +423,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 119.38 77.47)
+			(xy 128.27 95.25) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -319,7 +433,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 105.41 77.47)
+			(xy 113.03 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +443,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 91.44) (xy 140.97 91.44)
+			(xy 151.13 109.22) (xy 168.91 109.22)
 		)
 		(stroke
 			(width 0)
@@ -339,7 +453,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 97.79 81.28)
+			(xy 113.03 95.25) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -349,7 +463,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 119.38 85.09)
+			(xy 135.89 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5195e392-a158-4d88-a75a-b7c8baa30236")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -357,9 +481,19 @@
 		)
 		(uuid "78e46dae-6bc8-40b4-b10d-ef9a3bc50586")
 	)
+	(wire
+		(pts
+			(xy 135.89 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56ace66-fa49-457d-81cd-4c52ba577482")
+	)
 	(bus
 		(pts
-			(xy 121.92 80.01) (xy 121.92 87.63)
+			(xy 151.13 97.79) (xy 151.13 105.41)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +503,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 87.63) (xy 121.92 91.44)
+			(xy 151.13 105.41) (xy 151.13 109.22)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +513,7 @@
 	)
 	(hierarchical_label "I2C{SCL SDA}"
 		(shape bidirectional)
-		(at 140.97 91.44 0)
+		(at 168.91 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -390,8 +524,157 @@
 		(uuid "920937ef-5670-4c5d-b2b6-5de7a158ccbf")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ebbc086-3956-4419-8a3d-95f6dffa4d42")
+		(property "Reference" "TP16"
+			(at 138.43 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 93.2179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "5001"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "36-5001-ND"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.41000 "
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.14964 "
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa25527-3d0c-469c-ad06-4b511fd1176b")
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 109.22 85.09 90)
+		(at 124.46 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -399,7 +682,7 @@
 		(dnp no)
 		(uuid "456ba2b1-f8b1-4601-89d9-42c9b19c49f5")
 		(property "Reference" "R31"
-			(at 110.236 82.804 90)
+			(at 125.476 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +691,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 111.252 85.09 90)
+			(at 126.492 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +702,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 86.868 90)
+			(at 124.46 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +720,7 @@
 			)
 		)
 		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +729,7 @@
 			)
 		)
 		(property "Mfr" "Stackpole Electronics Inc"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +738,7 @@
 			)
 		)
 		(property "Mfr P/N" "RNCP0603FTD10K0"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,7 +747,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +756,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +765,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +774,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "0.0170"
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +783,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +792,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +801,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +810,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 85.09 0)
+			(at 124.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,10 +819,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6bdbdbb9-43dc-47f3-9f99-a5fe3f396e3f")
+			(uuid "1c7db8d7-3b13-4d1d-be17-e00a711df508")
 		)
 		(pin "1"
-			(uuid "764985fe-868c-4430-b527-f0c182e3fff7")
+			(uuid "d635ed77-e5a7-4afd-8e44-d4058871d538")
 		)
 		(instances
 			(project "roamer"
@@ -552,7 +835,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 77.47 90)
+		(at 124.46 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -560,7 +843,7 @@
 		(dnp no)
 		(uuid "883fa06d-6799-4a88-ad7d-7e316ebacb37")
 		(property "Reference" "R30"
-			(at 110.236 75.184 90)
+			(at 125.476 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,7 +852,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 111.252 77.47 90)
+			(at 126.492 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +863,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 79.248 90)
+			(at 124.46 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +872,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +881,7 @@
 			)
 		)
 		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +890,7 @@
 			)
 		)
 		(property "Mfr" "Stackpole Electronics Inc"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +899,7 @@
 			)
 		)
 		(property "Mfr P/N" "RNCP0603FTD10K0"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +908,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +917,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +926,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +935,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "0.0170"
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +944,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +953,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +962,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +971,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 77.47 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,10 +980,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "caa75082-8635-4e55-ad58-cdfeb5ccfbdc")
+			(uuid "7dfa202f-4411-4a1e-b3e2-05a3cbcb3ec8")
 		)
 		(pin "1"
-			(uuid "89d558c6-f60a-4080-8132-70c455016a23")
+			(uuid "629321d1-3fde-45b8-b067-cba0d3b85a41")
 		)
 		(instances
 			(project "roamer"
@@ -713,7 +996,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 81.28 90)
+		(at 106.68 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -722,7 +1005,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce41821b-3e4b-4e06-b869-3850b0410bf3")
 		(property "Reference" "#PWR049"
-			(at 95.25 81.28 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +1014,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 81.2799 90)
+			(at 102.87 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +1023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 81.28 0)
+			(at 106.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +1032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 81.28 0)
+			(at 106.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +1041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 81.28 0)
+			(at 106.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,12 +1050,169 @@
 			)
 		)
 		(pin "1"
-			(uuid "89a74352-2f8d-4e40-aaaf-f94fa773257f")
+			(uuid "4599a300-bd27-414d-9918-7e5f2f2ca70c")
 		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/beda7724-0f76-4222-b818-cdbe579d0fe4"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5fc091a-84a3-4f0e-9668-d41e8c6d2d5c")
+		(property "Reference" "TP6"
+			(at 138.43 104.9019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 107.4419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "5001"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "36-5001-ND"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.41000 "
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.14964 "
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d615f640-8d5c-4016-b71e-88bd1f10f500")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/beda7724-0f76-4222-b818-cdbe579d0fe4"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

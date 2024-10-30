@@ -671,6 +671,10 @@
     [
       "beda7724-0f76-4222-b818-cdbe579d0fe4",
       "Bus - I2C"
+    ],
+    [
+      "f58d5c77-1c65-498e-a3a0-8734e7b5a61f",
+      "Bus - SPI"
     ]
   ],
   "text_variables": {}

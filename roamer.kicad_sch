@@ -4036,6 +4036,54 @@
 		)
 	)
 	(sheet
+		(at 234.95 45.72)
+		(size 12.7 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f58d5c77-1c65-498e-a3a0-8734e7b5a61f")
+		(property "Sheetname" "Bus - SPI"
+			(at 235.966 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus-spi.kicad_sch"
+			(at 248.2346 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 241.3 60.96 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa54f31b-e0f1-409b-8c7a-26704aabe31f")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 138.43 189.23)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
