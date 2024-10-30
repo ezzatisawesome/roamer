@@ -1017,10 +1017,22 @@
 		)
 	)
 	(junction
+		(at 114.3 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27d44fd8-c977-4a8a-ab8c-34c61a76c455")
+	)
+	(junction
 		(at 144.78 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ab8d78-e838-4700-9982-94cc29fc0d4d")
+	)
+	(junction
+		(at 99.06 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb04cd6-5d5c-4117-a369-09a4d1d0a283")
 	)
 	(junction
 		(at 144.78 78.74)
@@ -1028,32 +1040,56 @@
 		(color 0 0 0 0)
 		(uuid "ecb5f0f5-2136-4d9b-a2a9-78d660ac3b0c")
 	)
-	(bus_entry
-		(at 97.79 92.71)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e35740f-9f30-4872-a075-60e9f0240b70")
+	(no_connect
+		(at 158.75 95.25)
+		(uuid "21087b0b-94e4-452f-93bb-05486b62a61d")
+	)
+	(no_connect
+		(at 158.75 100.33)
+		(uuid "529a2b8c-12d1-43c5-a0ee-a4da6b90dc67")
+	)
+	(no_connect
+		(at 158.75 105.41)
+		(uuid "8fa46a60-e6e4-49c2-a8f2-a82e336036f0")
+	)
+	(no_connect
+		(at 158.75 107.95)
+		(uuid "90d17bcf-4d4d-4fc0-8314-da56f3f9867c")
+	)
+	(no_connect
+		(at 158.75 102.87)
+		(uuid "9e888500-bceb-4889-b2b4-1a41bd9de55a")
+	)
+	(no_connect
+		(at 158.75 97.79)
+		(uuid "baee1d27-e36b-4426-87d2-ba3cbbd2a93a")
 	)
 	(bus_entry
-		(at 97.79 90.17)
+		(at 92.71 92.71)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "882e7a8b-eb51-4352-8636-9f8154829384")
+		(uuid "410d1179-d2ee-4f15-b132-e0fc5f5765a2")
 	)
 	(bus_entry
-		(at 97.79 95.25)
+		(at 92.71 95.25)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dad807d3-98ce-45b7-9f02-ec7087a43009")
+		(uuid "4421647d-c840-41a9-8246-3bdd6891af46")
+	)
+	(bus_entry
+		(at 92.71 90.17)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caec6da2-a822-48af-8407-b44129576291")
 	)
 	(wire
 		(pts
@@ -1067,6 +1103,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a00e2ad-6eed-400e-bd02-fb87c6920c6e")
+	)
+	(wire
+		(pts
 			(xy 147.32 113.03) (xy 147.32 114.3)
 		)
 		(stroke
@@ -1074,6 +1120,26 @@
 			(type default)
 		)
 		(uuid "0a590b83-e102-4ce7-a25b-64f8abfd256a")
+	)
+	(bus
+		(pts
+			(xy 90.17 92.71) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf35a4c-714d-4d8c-b9b8-c79474df1b41")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c41cecb-1010-4411-954d-ef4d109cc043")
 	)
 	(wire
 		(pts
@@ -1105,15 +1171,15 @@
 		)
 		(uuid "135f2a35-6ef4-4b8f-9b1d-63d5458213c6")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 95.25 95.25) (xy 95.25 97.79)
+			(xy 114.3 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "227f2f28-1dac-4e8a-a6fd-424cc4604914")
+		(uuid "3175962c-2dab-4719-8cd2-af3724f51909")
 	)
 	(wire
 		(pts
@@ -1127,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 123.19)
+			(xy 144.78 114.3) (xy 144.78 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1137,13 +1203,43 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 132.08 97.79)
+			(xy 157.48 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5254f5cf-4f43-419e-9411-0fd2c39988d5")
+		(uuid "3a9da72b-2f8f-48fc-a059-ed2e22a7ed15")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478efd2c-fff6-446e-b075-f8a5f9553093")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 99.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e54854-49c4-4204-be1a-9e25ac6d5b38")
+	)
+	(bus
+		(pts
+			(xy 90.17 95.25) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527529a0-2fe5-47cd-9e2b-f6ffd01c07bd")
 	)
 	(wire
 		(pts
@@ -1157,23 +1253,63 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 95.25) (xy 101.6 95.25)
+			(xy 132.08 102.87) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9957e173-af07-4fd8-a1c1-1dd66958dc56")
+		(uuid "721b41ba-205a-4c2f-87ef-078c6b2ab017")
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 101.6 90.17)
+			(xy 157.48 105.41) (xy 158.75 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f7d64c9-61ab-4dd1-9ae0-c05f2045a834")
+		(uuid "7920a2d4-b2df-40bf-90a3-2bf180aaf8eb")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee68eb-9ca5-4402-8a87-31994a0e111a")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d396aed-c2ec-4b32-8deb-be602cbdb780")
+	)
+	(bus
+		(pts
+			(xy 87.63 97.79) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8aa756-df59-46c4-a384-49eee2205754")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36bdd49-daf0-42e1-9f0c-46f956c92196")
 	)
 	(wire
 		(pts
@@ -1197,6 +1333,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 97.79) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0864fe-09df-4532-89d9-0ff2b4219cfb")
+	)
+	(wire
+		(pts
 			(xy 142.24 114.3) (xy 144.78 114.3)
 		)
 		(stroke
@@ -1204,16 +1350,6 @@
 			(type default)
 		)
 		(uuid "c0f9cc88-3e53-4e29-a9f4-82e85c910e09")
-	)
-	(wire
-		(pts
-			(xy 97.79 92.71) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d71504-2b27-46ec-a0df-bda26a481fde")
 	)
 	(wire
 		(pts
@@ -1225,15 +1361,55 @@
 		)
 		(uuid "c7e23b32-17d7-4e60-bb37-6dc550b6d940")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 88.9 97.79) (xy 95.25 97.79)
+			(xy 157.48 102.87) (xy 158.75 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daef83ac-e2a0-4cd9-a73a-ae7aef0729c4")
+		(uuid "c835bcb5-28a3-45b9-833c-6b23426d3824")
+	)
+	(wire
+		(pts
+			(xy 92.71 95.25) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3cde75-14ab-45d1-927a-183a8a4ca554")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27746d0-b3c5-4986-8eaf-81c790935a58")
+	)
+	(wire
+		(pts
+			(xy 92.71 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6370879-074d-4c4e-a6b1-865b8b08f060")
+	)
+	(wire
+		(pts
+			(xy 109.22 97.79) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8af7c20-3259-4f25-a69c-92b4269b3d2a")
 	)
 	(wire
 		(pts
@@ -1265,39 +1441,98 @@
 		)
 		(uuid "ed9bd68e-f2d6-48fd-a05e-1ded205fb5c2")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 95.25 92.71) (xy 95.25 95.25)
+			(xy 157.48 107.95) (xy 158.75 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f760e5b1-bd6a-4fb2-854d-f7f1784bb1a9")
+		(uuid "f620ee36-06c8-49da-948b-dc370d67489e")
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 132.08 102.87)
+			(xy 87.63 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "feef85ef-919a-4b94-b11c-59433201412c")
+		(uuid "f74d6f56-f944-4987-bef1-35217b14b5b1")
 	)
-	(label "SPI.MOSI"
-		(at 127 92.71 180)
-		(fields_autoplaced yes)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e58fe7-1367-4c58-ab4d-4fea3a79dd88")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
 		)
-		(uuid "0848dd47-92c6-44a9-9fb7-e02cc2d45bcd")
+		(uuid "1c0211d7-bd62-488e-8b5f-7a5df216a57a")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32ca8613-7c0f-419c-ad0c-8911bc61ecbd")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bf0c8d7-5168-47a3-8467-215a9051d876")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c03a9c1-5b4d-4444-9230-acf06a1c070f")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f31a60b-cfcb-4482-a48c-7498a70c93d8")
+	)
+	(text "n/c"
+		(exclude_from_sim no)
+		(at 162.052 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bced3df-3185-4778-a3f6-2b555b5560e3")
 	)
 	(label "SPI.MISO"
-		(at 127 95.25 180)
+		(at 123.19 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1305,10 +1540,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "65a68f1a-ec94-484b-808a-6537933a288c")
+		(uuid "1e2dbd3a-3064-402d-9118-b39b5b9e3ecd")
 	)
 	(label "SPI.SCK"
-		(at 127 90.17 180)
+		(at 123.19 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1316,23 +1551,22 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c5d88b04-b8ff-425a-9f66-ff6cc2c5d8f6")
+		(uuid "64fccda9-f1b7-4f5c-ad65-3efcf5d7e333")
 	)
-	(hierarchical_label "CS_LORA_900"
-		(shape input)
-		(at 127 97.79 180)
+	(label "SPI.MOSI"
+		(at 123.19 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "9f96dae1-4b17-40c6-abb4-bcddc2f8d223")
+		(uuid "d81b8581-6364-4ae4-91a7-c12aa654072c")
 	)
 	(hierarchical_label "~{RESET_LORA_900}"
 		(shape input)
-		(at 127 102.87 180)
+		(at 87.63 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1340,11 +1574,23 @@
 			)
 			(justify right)
 		)
-		(uuid "a198f972-4d4d-4c22-b06e-cb99206a4567")
+		(uuid "0f534f10-4c9d-4886-b3f5-7daf968714e9")
+	)
+	(hierarchical_label "CS_LORA_900"
+		(shape input)
+		(at 87.63 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1820064f-7c7e-41e1-a7b7-174a8af80ee7")
 	)
 	(hierarchical_label "SPI{SCK MOSI MISO}"
 		(shape bidirectional)
-		(at 88.9 97.79 180)
+		(at 87.63 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1352,19 +1598,19 @@
 			)
 			(justify right)
 		)
-		(uuid "fb2a6e0c-5b81-4591-a41b-f2082cd47731")
+		(uuid "813252f0-c7de-42d4-ba29-8ead022dbddc")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 92.71 270)
+		(at 105.41 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e5706cd-d560-43c6-830c-fd57f67134fb")
-		(property "Reference" "R22"
-			(at 101.6 91.186 90)
+		(uuid "205743db-41f0-458e-b14b-a4343d4d6eee")
+		(property "Reference" "R10"
+			(at 101.6 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1618,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 92.71 90)
+			(at 105.41 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1628,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 90.932 90)
+			(at 105.41 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1646,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1655,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1664,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1673,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1682,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1691,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1700,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1709,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1718,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1727,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1736,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 105.41 92.71 0)
+			(at 105.41 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,15 +1745,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbdf7671-3301-40cb-bf0d-bfdb4f0cf520")
+			(uuid "c4209241-f9b0-4e94-9e75-3d8fcc5e5c80")
 		)
 		(pin "2"
-			(uuid "6d387bc6-3ad0-4b20-a00a-684e8c9e7898")
+			(uuid "0ed3ed8c-f49a-4f30-b9db-a841cad4881f")
 		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "R22")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1575,6 +1821,165 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3049ce45-81ae-4e81-8ddd-5d313983ce65")
+		(property "Reference" "R33"
+			(at 101.6 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 105.41 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603JR-070RL"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.10000 "
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.00304 "
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba62315-a712-4501-a257-d3c7a43ea420")
+		)
+		(pin "2"
+			(uuid "7a16822c-a79b-4d58-97e1-082a637f08f0")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1740,16 +2145,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 90.17 270)
+		(lib_id "power:GND")
+		(at 101.6 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3de69f30-0402-451c-849b-62eb222b15a2")
-		(property "Reference" "R8"
-			(at 101.6 88.646 90)
+		(fields_autoplaced yes)
+		(uuid "43890ca8-f5ca-4c9d-b91b-99bc162201be")
+		(property "Reference" "#PWR069"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "129b0b56-7c43-45f3-8ea0-d77904eb8579")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58b60d68-e233-47c6-9656-4c50d6ee5a3d")
+		(property "Reference" "R22"
+			(at 101.6 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +2229,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 90.17 90)
+			(at 105.41 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2239,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 88.392 90)
+			(at 105.41 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +2248,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +2257,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +2266,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +2275,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +2284,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +2293,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +2302,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +2311,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +2320,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +2329,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +2338,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2347,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 105.41 90.17 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,15 +2356,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7220735-f930-4870-bc9e-36c69374ad51")
+			(uuid "835a131a-055e-4dec-8328-9806762b4204")
 		)
 		(pin "2"
-			(uuid "f5c64b5e-0bad-41f8-8c79-d9ed2221c1e3")
+			(uuid "ac180c99-65f1-418f-b8e4-20bd741d8ab0")
 		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "R8")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1966,15 +2438,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 95.25 270)
+		(at 124.46 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "704d253b-04e3-4e2b-8fd5-a3c064b57fae")
-		(property "Reference" "R10"
-			(at 101.6 93.726 90)
+		(uuid "8268d11b-ce6e-4dac-af9e-d1613ca6309f")
+		(property "Reference" "R38"
+			(at 124.46 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2454,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 95.25 90)
+			(at 124.46 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2464,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 93.472 90)
+			(at 124.46 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2473,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2482,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2491,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2500,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2509,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2518,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2527,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2536,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2545,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2554,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2563,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2572,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 105.41 95.25 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,15 +2581,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e937a1c-b91d-43d2-9740-a36474ec0c5e")
+			(uuid "4505079d-ad34-436a-a2bd-eaff16e40ec7")
 		)
 		(pin "2"
-			(uuid "44a27ea3-43ca-4ff6-bdc3-99f13b3ac2f5")
+			(uuid "85b43523-6a04-4f2b-a720-e6db1f664262")
 		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
-					(reference "R10")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2327,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 123.19 0)
+		(at 144.78 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2336,7 +2808,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d660535-1429-46a1-bab8-3fd519d3179e")
 		(property "Reference" "#PWR037"
-			(at 144.78 129.54 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 128.27 0)
+			(at 144.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 123.19 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 123.19 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 123.19 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,6 +2858,233 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9d72094-bb74-414f-b213-4c21825be89a")
+		(property "Reference" "#PWR067"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef0a0107-1ded-46b1-aff0-58b432b2223e")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3d35fb5-f2d2-4b9a-b6ac-8658fe8ef89b")
+		(property "Reference" "R35"
+			(at 106.68 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 107.442 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Stackpole Electronics Inc"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RNCP0603FTD10K0"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.0170"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61a2025b-45ff-48c5-bb62-b4c69a603c46")
+		)
+		(pin "1"
+			(uuid "ed9713da-d904-4f95-8ad6-0ee08e071602")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2767,6 +3466,326 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d427996e-f816-4e36-9594-6da64f673c69")
+		(property "Reference" "R8"
+			(at 101.6 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 99.06 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Stackpole Electronics Inc"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RNCP0603FTD10K0"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.0170"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d04b2a1d-6e01-4804-a09d-e3015b667595")
+		)
+		(pin "1"
+			(uuid "dfd9042d-0fda-47cb-97e3-0e90f068adf7")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e20d21ac-e1f9-4c4f-a654-44573a474c5c")
+		(property "Reference" "R37"
+			(at 124.46 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 124.46 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.46 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603JR-070RL"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.10000 "
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.00304 "
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f4cfb8c-13c2-4b30-9a03-2771cea3457e")
+		)
+		(pin "2"
+			(uuid "4138f705-738a-4026-9311-89ef391c1a37")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "R37")
 					(unit 1)
 				)
 			)

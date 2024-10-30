@@ -667,6 +667,10 @@
     [
       "10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1",
       "Sensor - Atmosphere"
+    ],
+    [
+      "beda7724-0f76-4222-b818-cdbe579d0fe4",
+      "Bus - I2C"
     ]
   ],
   "text_variables": {}
