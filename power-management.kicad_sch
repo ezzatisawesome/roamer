@@ -516,7 +516,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Network04_Split"
+		(symbol "Device:R_Pack04_SIP_Split"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -530,7 +530,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Network04_Split"
+			(property "Value" "R_Pack04_SIP_Split"
 				(at 0 0 90)
 				(effects
 					(font
@@ -538,7 +538,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(property "Footprint" "Resistor_THT:R_Array_SIP8"
 				(at -2.032 0 90)
 				(effects
 					(font
@@ -556,7 +556,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(property "Description" "4 resistor network, parallel topology, SIP package, split"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +565,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R network star-topology"
+			(property "ki_keywords" "R network parallel topology isolated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -583,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Network04_Split_0_1"
+			(symbol "R_Pack04_SIP_Split_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -595,10 +595,12 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "R_Pack04_SIP_Split_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 -3.81 90)
 					(length 1.27)
-					(name "R1"
+					(name "R1.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -613,10 +615,8 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "R1.2"
 						(effects
@@ -634,11 +634,11 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_2_1"
+			(symbol "R_Pack04_SIP_Split_2_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "R2.2"
+					(name "R2.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -653,12 +653,10 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_3_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
-					(name "R3.2"
+					(name "R2.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -674,9 +672,65 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_4_1"
+			(symbol "R_Pack04_SIP_Split_3_1"
 				(pin passive line
 					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "R4.2"
 						(effects
@@ -685,7 +739,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1701,6 +1755,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers hide)
@@ -1877,6 +2027,12 @@
 		(uuid "696c573e-8bd3-4df1-bfe7-d2932dbdbcb4")
 	)
 	(junction
+		(at 109.22 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8827a666-5f71-432e-a3dd-686bd785cb74")
+	)
+	(junction
 		(at 184.15 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1932,7 +2088,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 105.41) (xy 116.84 105.41)
+			(xy 101.6 105.41) (xy 109.22 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2179,6 +2335,16 @@
 			(type default)
 		)
 		(uuid "e3a813fa-85e2-4ee3-a534-7d9ee4bd211e")
+	)
+	(wire
+		(pts
+			(xy 109.22 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e7a984-aa97-46b8-a913-8da63dcf82c4")
 	)
 	(wire
 		(pts
@@ -3169,6 +3335,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba74a16-4753-4cb7-9800-a89a4926faeb")
+		(property "Reference" "#FLG05"
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.474 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ae987ae-23c6-4672-a31e-a365eb1bf566")
+		)
+		(instances
+			(project ""
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 109.22 0)
 		(unit 1)
@@ -3326,176 +3557,6 @@
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
 					(reference "C7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 81.28 111.76 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "553d3dc6-77b1-4343-9028-dac5ef02ff14")
-		(property "Reference" "R9"
-			(at 83.82 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 81.534 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 79.248 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100k Ohm 1% 62.5mW Power Per Element Isolated 4 Resistor Network/Array 200pm/°C 1206 (3216 Metric), Convex, Long Side Terminals."
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Bourns Inc."
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CAY16-1003F4LF"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "CAY16-1003F4LFCT-ND"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "0.03170"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90db7ac2-6686-47e9-90ea-59aca25bdb20")
-		)
-		(pin "3"
-			(uuid "0c4d487a-773c-4c8d-9531-47c5ef5e4bf0")
-		)
-		(pin "4"
-			(uuid "9b42e7f8-0dfe-4077-93ee-3c15f6a33c44")
-		)
-		(pin "5"
-			(uuid "7f7a2635-1a78-4d11-90a3-c100468d1556")
-		)
-		(pin "1"
-			(uuid "10b5f0a7-cc13-42ed-a2e6-485a08fbc04b")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
-					(reference "R9")
-					(unit 3)
 				)
 			)
 		)
@@ -4780,6 +4841,185 @@
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
 					(reference "#PWR018")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_SIP_Split")
+		(at 81.28 111.76 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e13cfa39-a856-44b3-96cf-bbaf1acf6559")
+		(property "Reference" "R9"
+			(at 83.82 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 81.28 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 79.248 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Bourns Inc."
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CAY16-1003F4LF"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "CAY16-1003F4LFCT-ND"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.03170"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "49574d36-50cf-4e26-b13d-7e4930b9e569")
+		)
+		(pin "2"
+			(uuid "17a0a3da-138d-4a8e-8852-869fc837aa88")
+		)
+		(pin "3"
+			(uuid "7903b21d-28e2-4505-bf5b-e49f79d60790")
+		)
+		(pin "4"
+			(uuid "a5dc900a-e7b7-4669-bdc8-fa09166d9f27")
+		)
+		(pin "6"
+			(uuid "a4a622ca-ed54-4dea-ba60-5221dc922515")
+		)
+		(pin "8"
+			(uuid "83131c8a-9754-4ca4-a414-fc3aa1d1cabd")
+		)
+		(pin "5"
+			(uuid "251edbd9-e8c1-4c5b-8e74-91699ba5c15a")
+		)
+		(pin "1"
+			(uuid "d55c82ad-04c0-4f77-9391-c1245366c1ae")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
+					(reference "R9")
+					(unit 3)
 				)
 			)
 		)

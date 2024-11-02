@@ -511,6 +511,28 @@
 		)
 		(uuid "f2f722c1-1b0a-426e-b745-9e81f57d5580")
 	)
+	(label "I2C.SCL"
+		(at 138.43 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c6fd2e1-06e4-4b44-8f8d-fa25cc69d3a3")
+	)
+	(label "I2C.SDA"
+		(at 138.43 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e244ffe4-8569-436f-9364-1d9db6c944b8")
+	)
 	(hierarchical_label "I2C{SCL SDA}"
 		(shape bidirectional)
 		(at 168.91 109.22 0)
@@ -531,10 +553,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ebbc086-3956-4419-8a3d-95f6dffa4d42")
 		(property "Reference" "TP16"
-			(at 138.43 90.6779 0)
+			(at 134.62 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +564,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 138.43 93.2179 0)
+			(at 134.62 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,6 +691,14 @@
 		)
 		(pin "1"
 			(uuid "daa25527-3d0c-469c-ad06-4b511fd1176b")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/beda7724-0f76-4222-b818-cdbe579d0fe4"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1069,10 +1098,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5fc091a-84a3-4f0e-9668-d41e8c6d2d5c")
 		(property "Reference" "TP6"
-			(at 138.43 104.9019 0)
+			(at 135.128 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1109,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 138.43 107.4419 0)
+			(at 135.128 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

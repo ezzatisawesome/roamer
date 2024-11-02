@@ -114,24 +114,6 @@
 			)
 		)
 	)
-	(junction
-		(at 133.35 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07ed123f-5c3b-4fff-8f6a-1f99354c3cff")
-	)
-	(junction
-		(at 133.35 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a794689-febd-4c70-917a-dddbea8a4464")
-	)
-	(junction
-		(at 133.35 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f83f3ebf-3876-4b98-b29f-42ed296059a9")
-	)
 	(bus_entry
 		(at 152.4 96.52)
 		(size 2.54 2.54)
@@ -169,16 +151,6 @@
 		)
 		(uuid "2d668c64-ca88-436f-815b-24ea8afa3777")
 	)
-	(wire
-		(pts
-			(xy 127 81.28) (xy 133.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7b9bb5-08d0-4698-9e0f-7933ef36cffe")
-	)
 	(bus
 		(pts
 			(xy 154.94 91.44) (xy 154.94 83.82)
@@ -198,16 +170,6 @@
 			(type default)
 		)
 		(uuid "6c134732-70fb-4710-8891-fbef0aa32737")
-	)
-	(wire
-		(pts
-			(xy 127 96.52) (xy 133.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3c8f0e-e1b4-4d95-b64a-5996abc32818")
 	)
 	(bus
 		(pts
@@ -231,16 +193,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 133.35 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9302c470-9efd-49b2-b4f5-46e66c5293a6")
-	)
-	(wire
-		(pts
 			(xy 133.35 81.28) (xy 152.4 81.28)
 		)
 		(stroke
@@ -250,7 +202,7 @@
 		(uuid "feefa6bb-5a2e-41bf-b682-362719a47c9b")
 	)
 	(label "SPI.MISO"
-		(at 127 96.52 180)
+		(at 133.35 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -261,7 +213,7 @@
 		(uuid "43f83f5a-7e1d-48e9-87b3-ba95ff799cb8")
 	)
 	(label "SPI.MOSI"
-		(at 127 88.9 180)
+		(at 133.35 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -272,7 +224,7 @@
 		(uuid "a83f9da7-cde1-4e6b-972c-2af2327866de")
 	)
 	(label "SPI.SCK"
-		(at 127 81.28 180)
+		(at 133.35 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

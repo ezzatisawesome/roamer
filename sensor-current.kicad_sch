@@ -821,6 +821,108 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 151.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f3319de-c423-4113-b46f-ee62b9fc5b31")
 	)
 	(junction
 		(at 106.68 95.25)
@@ -853,7 +955,7 @@
 		(uuid "f0feeca4-42b3-491e-9c4e-a3bad8e5f0b3")
 	)
 	(bus_entry
-		(at 203.2 97.79)
+		(at 191.77 97.79)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -862,7 +964,7 @@
 		(uuid "507d4330-6c75-436f-9657-6c6dcb371be0")
 	)
 	(bus_entry
-		(at 203.2 100.33)
+		(at 191.77 100.33)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -892,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 90.17)
+			(xy 151.13 85.09) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +1004,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 100.33) (xy 205.74 102.87)
+			(xy 194.31 100.33) (xy 194.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 203.2 100.33)
+			(xy 177.8 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +1074,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 186.69 100.33)
+			(xy 161.29 100.33) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 186.69 97.79)
+			(xy 161.29 97.79) (xy 170.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 97.79) (xy 203.2 97.79)
+			(xy 177.8 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1042,13 +1144,23 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 102.87) (xy 205.74 106.68)
+			(xy 194.31 102.87) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cff64590-47b1-413e-aba8-70ba7292531d")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a7e290-9295-4c35-b415-a31735058bda")
 	)
 	(wire
 		(pts
@@ -1062,7 +1174,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 106.68) (xy 217.17 106.68)
+			(xy 194.31 106.68) (xy 205.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1234,7 @@
 		(uuid "73df9027-f0b7-40e4-8c91-64de12f290f5")
 	)
 	(label "I2C.SDA"
-		(at 171.45 100.33 0)
+		(at 180.34 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1130,10 +1242,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1e6cfce5-4a3a-4b09-9c38-710691ee789e")
+		(uuid "b7ce79e5-fc8d-47b8-81ff-f3babce1ce3b")
 	)
 	(label "I2C.SCL"
-		(at 171.45 97.79 0)
+		(at 180.34 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,11 +1253,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d05b2e4e-dda7-42c9-85e7-1bad49826165")
+		(uuid "bcc329a1-5d39-4e42-99ff-fcee8ecaab7e")
 	)
 	(hierarchical_label "I2C{SCL SDA}"
 		(shape bidirectional)
-		(at 217.17 106.68 0)
+		(at 205.74 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1340,7 +1452,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 97.79 270)
+		(at 173.99 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1460,7 @@
 		(dnp no)
 		(uuid "44166c66-0e40-4233-a14a-d23476dece65")
 		(property "Reference" "R16"
-			(at 190.5 95.504 90)
+			(at 173.99 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1468,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 190.5 97.79 90)
+			(at 173.99 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1478,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 96.012 90)
+			(at 173.99 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1496,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1505,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1514,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1523,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1532,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1541,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1550,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1559,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1568,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1577,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1586,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 190.5 97.79 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2354,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 100.33 270)
+		(at 173.99 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2250,7 +2362,7 @@
 		(dnp no)
 		(uuid "8ffac6c7-6a1e-476b-9d4b-7a4e26c20166")
 		(property "Reference" "R17"
-			(at 190.5 102.616 90)
+			(at 173.99 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2370,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 190.5 100.33 90)
+			(at 173.99 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2380,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 98.552 90)
+			(at 173.99 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2389,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2398,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2407,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2416,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2425,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2434,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2443,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2452,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2461,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2470,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2479,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2488,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 190.5 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,6 +2663,73 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/7697eacc-831c-4a5e-b109-0bbe6f3888c4"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 151.13 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9226775-8fa3-412d-a9f9-6ba759e8e9e6")
+		(property "Reference" "#FLG07"
+			(at 149.225 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 147.32 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2714ebc1-f640-4b99-8ac1-b8f722ed415e")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/7697eacc-831c-4a5e-b109-0bbe6f3888c4"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
