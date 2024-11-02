@@ -254,6 +254,12 @@
 		(uuid "0c913fe5-99f9-43c7-92ac-987240d36bd1")
 	)
 	(junction
+		(at 241.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2076720d-dd31-4ed8-b1bb-9f7cd18287d4")
+	)
+	(junction
 		(at 241.3 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -266,23 +272,17 @@
 		(uuid "74aeaa87-47d5-463c-afd2-8c0269e07cd5")
 	)
 	(junction
-		(at 241.3 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "933f41e7-e7e3-459d-a53d-430f32f2031c")
-	)
-	(junction
 		(at 241.3 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea07143e-35fb-49b7-bd60-fb93b2d00e4e")
 	)
 	(no_connect
-		(at 242.57 218.44)
+		(at 205.74 229.87)
 		(uuid "3b07b37f-e587-4664-a04f-9de050250388")
 	)
 	(no_connect
-		(at 242.57 205.74)
+		(at 205.74 217.17)
 		(uuid "3c496525-3f62-4568-a81c-4d42860bdc11")
 	)
 	(wire
@@ -297,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 215.9) (xy 242.57 218.44)
+			(xy 205.74 227.33) (xy 205.74 229.87)
 		)
 		(stroke
 			(width 0)
@@ -347,23 +347,13 @@
 	)
 	(bus
 		(pts
-			(xy 241.3 71.12) (xy 252.73 71.12)
+			(xy 241.3 72.39) (xy 252.73 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cd3fe22-ebb1-4ef1-8d0d-82a03cdae0da")
-	)
-	(wire
-		(pts
-			(xy 252.73 78.74) (xy 227.33 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f15abfc-7a9c-46b7-8260-5dd13bc9fcf8")
 	)
 	(bus
 		(pts
@@ -424,16 +414,6 @@
 			(type default)
 		)
 		(uuid "71b22848-ec5f-40ec-94b9-63d9e6515251")
-	)
-	(bus
-		(pts
-			(xy 241.3 60.96) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74abd28a-aa2e-44cc-afd1-5d54b7a07d62")
 	)
 	(wire
 		(pts
@@ -497,7 +477,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 205.74) (xy 242.57 208.28)
+			(xy 205.74 217.17) (xy 205.74 219.71)
 		)
 		(stroke
 			(width 0)
@@ -577,6 +557,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 77.47) (xy 252.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3ed3c8-37ff-473c-bb98-a278f25fd4f2")
+	)
+	(wire
+		(pts
 			(xy 227.33 93.98) (xy 252.73 93.98)
 		)
 		(stroke
@@ -637,13 +627,23 @@
 	)
 	(bus
 		(pts
-			(xy 241.3 90.17) (xy 241.3 71.12)
+			(xy 241.3 90.17) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb0c73f5-c983-481e-858a-b56cd884af38")
+	)
+	(bus
+		(pts
+			(xy 241.3 60.96) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5eb6b5-ae98-4f49-8f82-78a43c582d02")
 	)
 	(image
 		(at 396.24 243.84)
@@ -1649,7 +1649,7 @@
 	)
 	(text "not used"
 		(exclude_from_sim no)
-		(at 254.254 207.01 0)
+		(at 217.424 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1659,7 +1659,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 242.57 212.09 0)
+		(at 205.74 223.52 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1667,7 +1667,7 @@
 		(dnp no)
 		(uuid "cbe23377-7c79-4159-80f7-0b0011455d81")
 		(property "Reference" "R9"
-			(at 245.11 210.8199 0)
+			(at 208.28 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 242.57 214.63 90)
+			(at 205.74 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,8 +1686,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 240.538 212.09 90)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 203.708 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1705,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1714,7 @@
 			)
 		)
 		(property "Mfr" "Bourns Inc."
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 			)
 		)
 		(property "Mfr P/N" "CAY16-1003F4LF"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "CAY16-1003F4LFCT-ND"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1750,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "0.03170"
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 242.57 212.09 0)
+			(at 205.74 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2147,7 @@
 			)
 		)
 		(pin "SPI{SCK MOSI MISO}" bidirectional
-			(at 252.73 71.12 180)
+			(at 252.73 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			(uuid "f15ab29d-e17f-405c-9de7-caaf82292797")
 		)
 		(pin "CS_uSD" input
-			(at 252.73 78.74 180)
+			(at 252.73 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,16 +2165,6 @@
 				(justify left)
 			)
 			(uuid "f0d93ec5-c2c5-409f-af86-2b3423266cfc")
-		)
-		(pin "uSD_DETECT" output
-			(at 252.73 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "79763d51-3ba4-4dda-a55a-57a23123bfcb")
 		)
 		(instances
 			(project "roamer"
@@ -2451,7 +2441,7 @@
 			(uuid "b231feb7-db47-42e3-b4c0-587ed14bcd32")
 		)
 		(pin "CS_uSD" output
-			(at 227.33 78.74 0)
+			(at 227.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,16 +2449,6 @@
 				(justify right)
 			)
 			(uuid "fac37cbf-cd54-41f6-a914-9cd9ce83c992")
-		)
-		(pin "SPI{CLK MISO MOSI}" bidirectional
-			(at 227.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6e844439-3fd8-4039-baf6-9f0b21b7150a")
 		)
 		(pin "~{RESET_LORA_433}" output
 			(at 227.33 119.38 0)
@@ -2509,6 +2489,16 @@
 				(justify right)
 			)
 			(uuid "8dadf81e-8590-4518-85b4-dfdb95f18727")
+		)
+		(pin "SPI{SCK MISO MOSI}" bidirectional
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d01606b0-ba8c-4d99-a847-bb829f1fdcc7")
 		)
 		(instances
 			(project "roamer"

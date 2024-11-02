@@ -730,6 +730,10 @@
 		(at 121.92 91.44)
 		(uuid "bc8f1b94-8609-4f4a-84c6-8fc3b269e603")
 	)
+	(no_connect
+		(at 179.07 88.9)
+		(uuid "ea2ddbe6-277c-4a8b-b268-1919c7960844")
+	)
 	(bus_entry
 		(at 96.52 86.36)
 		(size -2.54 2.54)
@@ -1017,6 +1021,16 @@
 		)
 		(uuid "fbd6fef6-08c7-474b-8138-0aa3c9695378")
 	)
+	(text "Can place a uSD_DETECT label here"
+		(exclude_from_sim no)
+		(at 198.882 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1043bc84-b32f-41ff-9ec9-38a9d7a8638a")
+	)
 	(text "n/c"
 		(exclude_from_sim no)
 		(at 119.126 91.44 0)
@@ -1081,18 +1095,6 @@
 			(justify right)
 		)
 		(uuid "105693c2-664d-45ab-93ee-b96f0c1a452f")
-	)
-	(hierarchical_label "uSD_DETECT"
-		(shape output)
-		(at 179.07 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1dc0ef51-6233-48e5-b0ac-af1b233064b6")
 	)
 	(hierarchical_label "CS_uSD"
 		(shape input)

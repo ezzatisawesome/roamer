@@ -700,26 +700,26 @@
 		)
 	)
 	(junction
-		(at 153.67 97.79)
+		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b90b829-22c5-441d-bbc3-79187ebd52bc")
 	)
 	(junction
-		(at 137.16 97.79)
+		(at 135.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77224a55-53a4-4829-b55f-4f673fb02d5f")
+		(uuid "83700f48-0fd7-4b82-a8b1-f9a9fc4e9f05")
 	)
 	(junction
-		(at 147.32 97.79)
+		(at 148.59 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2963547-6983-40f5-9ff4-c6a0da3c8be8")
+		(uuid "bd1e3966-8050-4d4c-98ca-d02cd1da33be")
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 153.67 99.06)
+			(xy 156.21 97.79) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -729,13 +729,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 95.25) (xy 137.16 97.79)
+			(xy 135.89 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f9854ae-1c48-45d3-b866-cde24d3388f6")
+		(uuid "4d9f99e4-03c6-4657-8ec4-0676acdb5f76")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747cce1e-b65a-45e4-b7ac-9a726acea04f")
 	)
 	(wire
 		(pts
@@ -749,27 +759,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 147.32 97.79)
+			(xy 148.59 95.25) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a82d1bb7-91a7-4dc1-b471-4dae1a8198eb")
+		(uuid "b2509edb-e02c-4fde-8a66-bf293c50b475")
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 153.67 97.79)
+			(xy 135.89 95.25) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7fa6336-6ad4-43b9-8c5b-7adc9113cd05")
+		(uuid "b436076c-7075-4f4a-8d5c-e70ed947afad")
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 163.83 97.79)
+			(xy 156.21 97.79) (xy 166.37 97.79)
 		)
 		(stroke
 			(width 0)
@@ -779,17 +789,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 137.16 97.79)
+			(xy 147.32 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2497749-efa2-4db4-943c-6d710a9ae7a5")
+		(uuid "e0d9e79d-ddf7-4d84-820e-169c227cbbe1")
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 153.67 96.52)
+			(xy 148.59 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb948364-5d7f-4aaf-841c-345481b2ac49")
+	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -797,9 +817,29 @@
 		)
 		(uuid "f18038b8-e8c5-4618-8638-0b7446bdb0e1")
 	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d99720-a4aa-40a3-9b08-922fadc30c02")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa5fc19-daf1-4f61-a09b-9590e51c1d92")
+	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
-		(at 163.83 97.79 0)
+		(at 166.37 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -811,7 +851,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 102.87 0)
+		(at 156.21 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -820,7 +860,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b82c258-808c-42b9-bd5f-be4f11a2b937")
 		(property "Reference" "C12"
-			(at 157.48 101.5999 0)
+			(at 160.02 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +869,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 157.48 104.1399 0)
+			(at 160.02 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +878,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.6352 106.68 0)
+			(at 157.1752 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +887,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +897,7 @@
 			)
 		)
 		(property "Description" "1 uF 10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +906,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +915,7 @@
 			)
 		)
 		(property "Mfr P/N" "CC0603KRX7R7BB105"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +925,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +934,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "0.10"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +943,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.03080"
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +952,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +961,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +970,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +979,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +988,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 153.67 102.87 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +1013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 92.71 180)
+		(at 156.21 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -981,7 +1021,7 @@
 		(dnp no)
 		(uuid "2a05b19b-d729-4e0a-bc98-4b9420ef5ef7")
 		(property "Reference" "R1"
-			(at 151.384 91.694 90)
+			(at 153.924 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1030,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 153.67 90.678 90)
+			(at 156.21 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.448 92.71 90)
+			(at 157.988 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1050,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1059,7 @@
 			)
 		)
 		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1068,7 @@
 			)
 		)
 		(property "Mfr" "Stackpole Electronics Inc"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1077,7 @@
 			)
 		)
 		(property "Mfr P/N" "RNCP0603FTD10K0"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1086,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1095,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1104,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1113,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "0.0170"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1122,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1131,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1140,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1149,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1338,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 153.67 88.9 0)
+		(at 156.21 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1307,7 +1347,7 @@
 		(fields_autoplaced yes)
 		(uuid "62043fa0-1e04-4177-a6bf-998a7dc7f1ea")
 		(property "Reference" "#PWR03"
-			(at 153.67 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1356,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 153.67 83.82 0)
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 88.9 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 88.9 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 88.9 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 106.68 0)
+		(at 156.21 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1373,7 +1413,7 @@
 		(fields_autoplaced yes)
 		(uuid "e684dd8e-6c5d-403b-9b96-ca43bf4e5fcb")
 		(property "Reference" "#PWR02"
-			(at 153.67 113.03 0)
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 106.68 0)
+			(at 156.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 106.68 0)
+			(at 156.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 106.68 0)
+			(at 156.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
