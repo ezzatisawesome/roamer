@@ -1406,13 +1406,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 97.79) (xy 102.87 97.79)
+			(xy 102.87 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b5db0d0-70c5-47d6-a252-65ee97ff0e9f")
+		(uuid "3d7b30eb-1a88-458f-85a3-62aee4587079")
 	)
 	(wire
 		(pts
@@ -1613,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Value" "S2B-PH-K-SLFSN"
+		(property "Value" "JSTPH"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -1621,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -1631,7 +1631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "S2B-PH-K-SLFSN"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -1641,7 +1641,97 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "JST Sales America Inc."
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "S2B-PH-SM4-TB"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "455-S2B-PH-SM4-TBCT-ND"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.58"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.4143"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font

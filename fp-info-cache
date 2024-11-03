@@ -1,4 +1,4 @@
-23853565415933358
+23858757462693464
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96760,3 +96760,24 @@ MOD_COM-13909
 0
 16
 16
+footprints
+SOT-23-6_DIO
+
+AP3602AKTR-G1 
+0
+6
+6
+footprints
+SOT-23-6_DIO-L
+
+AP3602AKTR-G1 
+0
+6
+6
+footprints
+SOT-23-6_DIO-M
+
+AP3602AKTR-G1 
+0
+6
+6
