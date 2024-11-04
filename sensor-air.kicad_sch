@@ -3190,7 +3190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c68bdadf-af30-4368-b13b-eba95e588989")
-		(property "Reference" "R5"
+		(property "Reference" "R40"
 			(at 189.484 100.584 90)
 			(effects
 				(font
@@ -3336,7 +3336,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/51e979ab-bea6-4c65-a749-9f40ad447381"
-					(reference "R5")
+					(reference "R40")
 					(unit 1)
 				)
 			)
