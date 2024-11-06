@@ -1,4 +1,4 @@
-23858757462693464
+23860488362596668
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96753,6 +96753,13 @@ GCT_MEM2075-00-140-01-A
 0
 13
 13
+footprints
+MODULE_RFM96W-433S2
+
+
+0
+16
+16
 footprints
 MOD_COM-13909
 
