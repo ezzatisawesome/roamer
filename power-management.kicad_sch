@@ -2458,6 +2458,12 @@
 		(uuid "49393688-09a8-4990-806a-2864050a19e6")
 	)
 	(junction
+		(at 139.7 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4feb49f6-da12-4c36-818d-6a125a1674cd")
+	)
+	(junction
 		(at 53.34 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2468,12 +2474,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cf86da7-ba8d-48ad-a928-cd478cc2d267")
-	)
-	(junction
-		(at 139.7 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dddfb97-180a-4188-b6f2-15218eef7d72")
 	)
 	(junction
 		(at 38.1 93.98)
@@ -2494,16 +2494,16 @@
 		(uuid "95a3cf02-d131-45e8-968b-0843217ab27a")
 	)
 	(junction
+		(at 139.7 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdadc154-6bc5-4b0f-9ab3-a959700f8d4b")
+	)
+	(junction
 		(at 111.76 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbc5033f-a95b-44db-8915-c24d28f4e93b")
-	)
-	(junction
-		(at 139.7 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc31d962-682c-4780-8e6d-287f5b81cf47")
 	)
 	(junction
 		(at 257.81 109.22)
@@ -2679,6 +2679,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ddbaf4-1de7-45a7-9dff-3c99b04876c5")
+	)
+	(wire
+		(pts
 			(xy 48.26 102.87) (xy 53.34 102.87)
 		)
 		(stroke
@@ -2716,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "925d8c65-b301-4de0-b802-be64faffee2a")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c86cac-6e13-4211-8d2d-cee24df7cabf")
 	)
 	(wire
 		(pts
@@ -2799,16 +2819,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 139.7 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d0b583-e0eb-4e71-9231-63278d8dfb9c")
-	)
-	(wire
-		(pts
 			(xy 53.34 74.93) (xy 53.34 68.58)
 		)
 		(stroke
@@ -2829,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 148.59 102.87)
+			(xy 128.27 102.87) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2879,23 +2889,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 110.49) (xy 148.59 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec95114-272b-46c8-a07e-c10ec19b5336")
-	)
-	(wire
-		(pts
 			(xy 128.27 110.49) (xy 139.7 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d304c7b9-877d-4e67-83cc-9e909bfe7c13")
+		(uuid "cec95114-272b-46c8-a07e-c10ec19b5336")
 	)
 	(wire
 		(pts
@@ -3267,6 +3267,168 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a03814-258c-4f9a-9fc0-817eab94ba25")
+		(property "Reference" "C10"
+			(at 143.51 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 143.51 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.7348 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 uF 10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603KRX7R7BB105"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "0.10"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.03080"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76dbea51-a655-435e-96b1-191aa609b6f3")
+		)
+		(pin "1"
+			(uuid "b1d49cec-e692-4568-80c9-62293b42b595")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5736,163 +5898,6 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c507afc6-4dab-4a21-a6bc-144edd97e2b4")
-		(property "Reference" "C10"
-			(at 144.78 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 145.034 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 140.6652 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106K0QNNNE_Sp"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 uF 10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Samsung Electro-Mechanics"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CL21A106KOQNNNE"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "1276-1096-1-ND"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "0.03130"
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 139.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ce62f37-cee6-4608-8af6-42ef21713fab")
-		)
-		(pin "2"
-			(uuid "9fbb0838-54ae-4684-8a14-ffb487179b2a")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
-					(reference "C10")
 					(unit 1)
 				)
 			)

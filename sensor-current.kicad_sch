@@ -114,6 +114,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -937,6 +1073,12 @@
 		(uuid "3ac4e5f4-923a-488c-bcc6-173c8126093f")
 	)
 	(junction
+		(at 151.13 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45110a5b-3827-44de-a9e1-2fb45a506a8b")
+	)
+	(junction
 		(at 135.89 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -994,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 87.63)
+			(xy 151.13 77.47) (xy 151.13 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1011,6 +1153,16 @@
 			(type default)
 		)
 		(uuid "0f148960-7236-455d-8167-0b7bf44161c8")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c31f0d6-21dc-496a-9956-fa082f7a86b3")
 	)
 	(wire
 		(pts
@@ -1041,6 +1193,16 @@
 			(type default)
 		)
 		(uuid "51ef2fbb-e756-48b2-a7ea-9f6f2ea5dcee")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a538e99-9538-4c42-bf33-08fe1189048c")
 	)
 	(wire
 		(pts
@@ -1124,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 151.13 77.47)
+			(xy 151.13 67.31) (xy 151.13 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1290,6 +1452,73 @@
 			(justify right)
 		)
 		(uuid "e604666d-64e5-4e0b-96ac-0e1adf231562")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26cee342-6161-470d-b416-282ccf125681")
+		(property "Reference" "#PWR073"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55befe45-025e-4de2-8203-fcc25f3983b5")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/7697eacc-831c-4a5e-b109-0bbe6f3888c4"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2195,7 +2424,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 81.28 180)
+		(at 151.13 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2203,7 +2432,7 @@
 		(dnp no)
 		(uuid "87fbc7c0-0828-4b5c-a203-31cb71ef6b38")
 		(property "Reference" "R18"
-			(at 155.194 81.534 0)
+			(at 155.194 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2440,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2450,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.908 81.28 90)
+			(at 152.908 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2459,7 @@
 			)
 		)
 		(property "Datasheet" "Datasheet"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2468,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2477,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2486,7 @@
 			)
 		)
 		(property "Mfr P/N" "RC0603JR-070RL"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2495,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2504,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2513,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.10000 "
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2522,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "$0.00304 "
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2531,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2540,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2549,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2558,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 151.13 81.28 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,8 +2965,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5fd5a81-f5cf-450f-bf66-3362d65997bb")
+		(property "Reference" "C19"
+			(at 159.512 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 155.194 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 81.5848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 uF 10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603KRX7R7BB105"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "0.10"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.03080"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8522d768-e175-45b7-a399-d550daa0967f")
+		)
+		(pin "1"
+			(uuid "c4ae9221-91a6-4d24-ac38-e74b8bf702f1")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/7697eacc-831c-4a5e-b109-0bbe6f3888c4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 151.13 74.93 0)
+		(at 151.13 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2746,7 +3134,7 @@
 		(fields_autoplaced yes)
 		(uuid "db570b6d-90d2-4715-be4e-3145b31c8c21")
 		(property "Reference" "#PWR040"
-			(at 151.13 78.74 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +3143,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 69.85 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +3151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 74.93 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +3160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 74.93 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +3169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 74.93 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

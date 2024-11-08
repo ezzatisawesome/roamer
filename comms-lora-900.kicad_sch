@@ -1155,10 +1155,6 @@
 		(uuid "8fa46a60-e6e4-49c2-a8f2-a82e336036f0")
 	)
 	(no_connect
-		(at 158.75 107.95)
-		(uuid "90d17bcf-4d4d-4fc0-8314-da56f3f9867c")
-	)
-	(no_connect
 		(at 158.75 102.87)
 		(uuid "9e888500-bceb-4889-b2b4-1a41bd9de55a")
 	)
@@ -1332,6 +1328,16 @@
 			(type default)
 		)
 		(uuid "3a9da72b-2f8f-48fc-a059-ed2e22a7ed15")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 177.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c7eba9-e68a-407f-aebe-f87e416f7035")
 	)
 	(wire
 		(pts
@@ -1585,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 107.95) (xy 158.75 107.95)
+			(xy 157.48 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1653,16 +1659,6 @@
 		)
 		(uuid "6f31a60b-cfcb-4482-a48c-7498a70c93d8")
 	)
-	(text "n/c"
-		(exclude_from_sim no)
-		(at 162.052 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7bced3df-3185-4778-a3f6-2b555b5560e3")
-	)
 	(label "SPI.MISO"
 		(at 113.03 95.25 180)
 		(fields_autoplaced yes)
@@ -1707,6 +1703,18 @@
 			(justify right)
 		)
 		(uuid "2f99d0c5-0785-491c-b6e6-5b4f8f2d3108")
+	)
+	(hierarchical_label "LORA_900_BUSY"
+		(shape output)
+		(at 177.8 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8107ab08-f2a4-4239-8f25-8d148c336315")
 	)
 	(hierarchical_label "SPI{SCK MOSI MISO}"
 		(shape bidirectional)
@@ -3218,6 +3226,165 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c730f8f-8671-4f18-9f33-9c0039b94c80")
+		(property "Reference" "R47"
+			(at 171.45 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 171.45 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 171.45 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603JR-070RL"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.10000 "
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.00304 "
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 171.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c220bd-aa09-4f1e-bff3-2bbd171dd27d")
+		)
+		(pin "2"
+			(uuid "685b2692-70ff-4406-9fee-4f7ae1e668ae")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/74b4b058-6b85-4b9e-95dc-72d767f949d9"
+					(reference "R47")
 					(unit 1)
 				)
 			)

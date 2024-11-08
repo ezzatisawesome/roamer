@@ -133,187 +133,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Lab_4:BME680"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -865,12 +684,6 @@
 		(uuid "527a938e-33ae-46e0-95e2-11c8d173f86f")
 	)
 	(junction
-		(at 121.92 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e2f823d-b9cf-4a47-a445-e6d309c4d2b3")
-	)
-	(junction
 		(at 162.56 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -879,6 +692,10 @@
 	(no_connect
 		(at 147.32 87.63)
 		(uuid "b5f00978-38ab-4734-a180-85ecb9c4aeae")
+	)
+	(no_connect
+		(at 147.32 72.39)
+		(uuid "e6186233-6f85-415c-aade-27a3381d875f")
 	)
 	(bus_entry
 		(at 124.46 82.55)
@@ -897,16 +714,6 @@
 			(type default)
 		)
 		(uuid "a4bdac07-a1e1-4b5e-ae18-4f1fabb7a1d0")
-	)
-	(wire
-		(pts
-			(xy 121.92 63.5) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "065e2d87-61d5-4fe0-b671-561d0e4aa6ba")
 	)
 	(wire
 		(pts
@@ -930,16 +737,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 121.92 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c707eee-4b2a-4160-af8d-0129a0604a20")
-	)
-	(wire
-		(pts
 			(xy 147.32 87.63) (xy 149.86 87.63)
 		)
 		(stroke
@@ -947,16 +744,6 @@
 			(type default)
 		)
 		(uuid "108b2a9e-ca31-4828-88b1-9a503405f38d")
-	)
-	(wire
-		(pts
-			(xy 121.92 63.5) (xy 120.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f915bbb-c431-4690-9781-c8196814982e")
 	)
 	(wire
 		(pts
@@ -1028,16 +815,6 @@
 		)
 		(uuid "b57386ba-cdf9-4423-bf94-6dcb3bdaa895")
 	)
-	(wire
-		(pts
-			(xy 121.92 72.39) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4129902-518d-4f51-9e02-53d3e1848974")
-	)
 	(bus
 		(pts
 			(xy 121.92 80.01) (xy 121.92 85.09)
@@ -1057,6 +834,16 @@
 			(type default)
 		)
 		(uuid "cb97fac4-9daa-4ec4-b330-1a00a54b1544")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 149.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3a6b1f-eba2-40a7-b7c6-9eb7bd9c3393")
 	)
 	(wire
 		(pts
@@ -1097,6 +884,16 @@
 			(type default)
 		)
 		(uuid "ec2bdf17-9ba8-47d1-bab5-f870c5ae7d1b")
+	)
+	(text "n/c (this is for SPI)"
+		(exclude_from_sim no)
+		(at 136.398 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09116d25-269d-428e-90be-c28b0e25e002")
 	)
 	(text "n/c (this is for SPI)"
 		(exclude_from_sim no)
@@ -1226,167 +1023,6 @@
 			(project ""
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fce137b-e5ce-4c02-9e3b-c96a839687ad")
-		(property "Reference" "R29"
-			(at 118.618 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 118.872 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms 1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Stackpole Electronics Inc"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "RNCP0603FTD10K0"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "RNCP0603FTD10K0CT-ND"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "0.0170"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14e99079-19b1-4188-9f0c-6b7009778097")
-		)
-		(pin "1"
-			(uuid "ebae6176-ffc5-4498-a742-b8a6197bb4e6")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2058,125 +1694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 130.81 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "930fdaa6-bccc-4cbf-a455-f721b8513011")
-		(property "Reference" "#PWR048"
-			(at 137.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 P/N" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 P/N" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4542384-d197-4124-a7cc-de8be978f033")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 162.56 52.07 0)
 		(unit 1)
@@ -2330,232 +1847,6 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6412d3a-19ef-4617-99df-cbd643d923ca")
-		(property "Reference" "#PWR047"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 109.22 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a4ce4dc-c851-4710-a759-aaa56d577fbf")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 127 63.5 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "df5c8af3-ab3c-4ddc-8c0f-75f3ff2b8fc6")
-		(property "Reference" "JP2"
-			(at 125.222 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 123.698 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65fc1544-7320-4860-8e4e-be2ce7d46e33")
-		)
-		(pin "2"
-			(uuid "d100244a-4488-4b9e-a3ed-c6a1a16d214e")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/10ed27ff-b06a-41c0-90a7-6ef09f5e2ce1"
-					(reference "JP2")
 					(unit 1)
 				)
 			)

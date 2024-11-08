@@ -2373,72 +2373,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 111.76 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56ef6747-40ee-4153-8618-c3a4782e3945")
-		(property "Reference" "#PWR034"
-			(at 111.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0e81891-62d8-474a-8bea-0baaae560b79")
-		)
-		(instances
-			(project "roamer"
-				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/8b882434-0721-40fe-a26c-3dd045b3f675"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 154.94 83.82 270)
 		(unit 1)
@@ -2599,16 +2533,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 101.6 0)
+		(at 111.76 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c228762e-21d8-4f1d-ba32-26ebe3cceb52")
+		(uuid "7b619973-d291-44e1-bf67-0eabdd2fe7c8")
 		(property "Reference" "#PWR033"
-			(at 111.76 107.95 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,6 +2551,72 @@
 			)
 		)
 		(property "Value" "GND"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deba7fe0-0cb7-40f3-ba5d-539fca8d21fa")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/8b882434-0721-40fe-a26c-3dd045b3f675"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 111.76 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa87181-e79a-48bb-bb3b-73be7c9f6ef8")
+		(property "Reference" "#PWR034"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -2652,12 +2652,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc6df0ab-c24e-4758-a4f3-468b09b03e7f")
+			(uuid "a51e16fb-82e5-425c-83fc-8afa3d5b2864")
 		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/8b882434-0721-40fe-a26c-3dd045b3f675"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

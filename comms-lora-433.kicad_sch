@@ -1159,10 +1159,6 @@
 		(uuid "9d38096a-b507-4eff-91af-6f5cacae709d")
 	)
 	(no_connect
-		(at 170.18 110.49)
-		(uuid "a02ac55d-8155-4233-ad4b-8606ff9d4725")
-	)
-	(no_connect
 		(at 170.18 105.41)
 		(uuid "d9b80292-b0aa-4578-b5c8-c3bcba287799")
 	)
@@ -1212,6 +1208,16 @@
 			(type default)
 		)
 		(uuid "07586ad9-0db0-4325-a8b6-1440feb171af")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcf05ba-8820-46e5-9dbb-dfd292116069")
 	)
 	(wire
 		(pts
@@ -1375,6 +1381,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 110.49) (xy 177.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5518e5a0-2e75-43ea-9f5f-3fba4191ad94")
+	)
+	(wire
+		(pts
 			(xy 139.7 97.79) (xy 143.51 97.79)
 		)
 		(stroke
@@ -1482,16 +1498,6 @@
 			(type default)
 		)
 		(uuid "a3c99bbb-8be9-4075-88d0-e1816bc7bd31")
-	)
-	(wire
-		(pts
-			(xy 168.91 110.49) (xy 170.18 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6dddf92-296f-4ae6-923f-4f121d18e3eb")
 	)
 	(wire
 		(pts
@@ -1615,16 +1621,6 @@
 	)
 	(text "n/c"
 		(exclude_from_sim no)
-		(at 173.482 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3bd74aa4-afcb-4139-9803-ca1314da3ef6")
-	)
-	(text "n/c"
-		(exclude_from_sim no)
 		(at 173.482 107.95 0)
 		(effects
 			(font
@@ -1685,6 +1681,18 @@
 			(justify right bottom)
 		)
 		(uuid "be750e61-a3bf-4c72-9b6b-a33f321fde14")
+	)
+	(hierarchical_label "LORA_433_BUSY"
+		(shape output)
+		(at 187.96 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11613f7f-930c-4258-81c5-988698f33a84")
 	)
 	(hierarchical_label "~{RESET_LORA_433}"
 		(shape input)
@@ -3500,6 +3508,165 @@
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1baa39b-1ef1-4e68-83c3-7317f9956739")
+		(property "Reference" "R46"
+			(at 181.61 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Datasheet"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603JR-070RL"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-0.0GRCT-ND"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.10000 "
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "$0.00304 "
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ea8d66c-f530-4d39-8f94-c56bb7ca81cb")
+		)
+		(pin "2"
+			(uuid "3ae936db-7ca9-421f-9f41-f86eaa55ad81")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/27e0c772-2e0b-4398-8c51-a65e2e356334"
+					(reference "R46")
 					(unit 1)
 				)
 			)
