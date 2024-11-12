@@ -449,6 +449,16 @@
 	)
 	(bus
 		(pts
+			(xy 205.74 68.58) (xy 205.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461d15dd-29e6-4890-9a79-d20d7096f1e3")
+	)
+	(bus
+		(pts
 			(xy 227.33 111.76) (xy 241.3 111.76)
 		)
 		(stroke
@@ -486,6 +496,16 @@
 			(type default)
 		)
 		(uuid "6fe91df3-d65c-413d-a3e6-56ff77319fa4")
+	)
+	(bus
+		(pts
+			(xy 205.74 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70163091-f443-429b-9355-b03bb6e56129")
 	)
 	(bus
 		(pts
@@ -2751,7 +2771,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -2829,7 +2849,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
@@ -2993,7 +3013,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "14")
+					(page "15")
 				)
 			)
 		)
@@ -3129,7 +3149,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -3197,7 +3217,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "13")
+					(page "14")
 				)
 			)
 		)
@@ -3412,6 +3432,16 @@
 			)
 			(uuid "83d4d276-e644-4615-8ddf-8ee27f688560")
 		)
+		(pin "SWD{IO CLK}" bidirectional
+			(at 205.74 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5153f90-357d-4fd8-82ad-acfdd8c03539")
+		)
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
@@ -3559,7 +3589,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
@@ -3671,6 +3701,54 @@
 		)
 	)
 	(sheet
+		(at 209.55 57.15)
+		(size 15.24 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5697e31-d0f8-4a60-84d9-2fb6963303de")
+		(property "Sheetname" "Interface - SWD"
+			(at 209.55 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface-swd.kicad_sch"
+			(at 209.55 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWD{IO CLK}" bidirectional
+			(at 209.55 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34940c91-93db-41b7-93a6-2688e8dabc9b")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 234.95 38.1)
 		(size 12.7 22.86)
 		(stroke
@@ -3713,7 +3791,7 @@
 		(instances
 			(project "roamer"
 				(path "/1c59de6a-87fe-4223-8898-4b0383164a31"
-					(page "17")
+					(page "18")
 				)
 			)
 		)

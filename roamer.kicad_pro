@@ -649,6 +649,10 @@
       "Interface - uSD"
     ],
     [
+      "f5697e31-d0f8-4a60-84d9-2fb6963303de",
+      "Interface - SWD"
+    ],
+    [
       "74b4b058-6b85-4b9e-95dc-72d767f949d9",
       "Comms - LoRa 900"
     ],
