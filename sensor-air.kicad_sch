@@ -1003,6 +1003,173 @@
 				)
 			)
 		)
+		(symbol "symbols:PMSA003I"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.572 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMSA003I_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -2.54) (xy -6.35 -2.54) (xy -7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 0) (xy -6.35 0) (xy -7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -2.54)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 106.68 106.68)
@@ -1612,7 +1779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1621,7 +1788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1787,7 +1954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -1796,7 +1963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.02334 "
+		(property "Supplier_1 Price @ Qty" "0.02334 "
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -1946,7 +2113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -1955,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -2105,7 +2272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -2114,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -2264,7 +2431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -2273,7 +2440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -2761,6 +2928,160 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:PMSA003I")
+		(at 151.13 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5023d5a-8b08-460f-ad73-045da469eefa")
+		(property "Reference" "U10"
+			(at 157.48 136.5249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMSA003I"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.smart-prototyping.com/image/data/digikey/101962/PMSA003%20series%20data%20manua_English_V2.6.pdf"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PM1.0 PM2.5 PM10 SENSOR PMSA003I"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Smart Prototyping"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "ZIO-101962"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "3099-ZIO-101962-ND"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "35.00000"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "31.50000"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/51e979ab-bea6-4c65-a749-9f40ad447381"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 168.91 101.6 0)
 		(unit 1)
@@ -2866,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -2875,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.02334 "
+		(property "Supplier_1 Price @ Qty" "0.02334 "
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -3186,7 +3507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -3195,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -3272,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "Conn_02x05_Odd_Even Female"
 			(at 154.94 91.186 0)
 			(effects
 				(font
@@ -3343,7 +3664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$1.35000 "
+		(property "Supplier_1 Unit Price" "1.35000 "
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -3352,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.79120 "
+		(property "Supplier_1 Price @ Qty" "0.79120 "
 			(at 147.32 101.6 0)
 			(effects
 				(font

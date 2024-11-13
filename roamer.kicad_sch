@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "4x 100K"
 			(at 205.74 226.06 90)
 			(effects
 				(font

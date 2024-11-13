@@ -5100,7 +5100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$5.68"
+		(property "Supplier_1 Unit Price" "5.68"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "4x 100K"
 			(at 203.2 67.564 90)
 			(effects
 				(font
@@ -6876,7 +6876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "4x 100K"
 			(at 203.2 80.264 90)
 			(effects
 				(font

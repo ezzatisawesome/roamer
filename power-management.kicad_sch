@@ -2506,6 +2506,12 @@
 		(uuid "a12d47a7-8418-401c-870a-d39b5b2bdea4")
 	)
 	(junction
+		(at 257.81 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd50a46a-f63c-4073-9dae-fa1f8b9c4c8e")
+	)
+	(junction
 		(at 139.7 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2547,16 +2553,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 118.11) (xy 257.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4b2f53-8c7d-4bb1-ab06-ee8bf629a68e")
-	)
-	(wire
-		(pts
 			(xy 55.88 85.09) (xy 53.34 85.09)
 		)
 		(stroke
@@ -2594,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "2f1e27ed-e79c-46b8-b1d4-fed8bc2c9adf")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368df937-5b01-4fbd-b974-41d07543f90c")
 	)
 	(wire
 		(pts
@@ -2974,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "da1a2b75-b360-4b8a-bf4b-4d3bbfdfc686")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3f7872-3ab9-4bca-bc8e-74b6a106345d")
 	)
 	(wire
 		(pts
@@ -4366,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Batt Testpoint"
 			(at 58.42 71.1199 90)
 			(effects
 				(font
@@ -4523,7 +4539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5V Testpoint"
 			(at 262.89 104.1399 90)
 			(effects
 				(font
@@ -4595,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.41000 "
+		(property "Supplier_1 Unit Price" "0.41000 "
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -4604,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.14964 "
+		(property "Supplier_1 Price @ Qty" "0.14964 "
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -4913,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -4922,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00714 "
+		(property "Supplier_1 Price @ Qty" "0.00714 "
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -5838,7 +5854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V3 Testpoint"
 			(at 116.84 100.3299 90)
 			(effects
 				(font
@@ -6349,7 +6365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "4x 100K"
 			(at 38.1 112.014 90)
 			(effects
 				(font
@@ -6601,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.78000 "
+		(property "Supplier_1 Unit Price" "0.78000 "
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -7000,6 +7016,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef9b65a2-b93f-4c2e-bd56-be4ae7c9848d")
+		(property "Reference" "TP6"
+			(at 262.89 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND Testpoint"
+			(at 262.89 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "5001"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "36-5001-ND"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.41000 "
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "0.14964 "
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a3f22fc-3f71-4c27-b980-51ea6b0f1588")
+		)
+		(instances
+			(project "roamer"
+				(path "/1c59de6a-87fe-4223-8898-4b0383164a31/f8947920-db82-4e9f-9d4f-25a180fcfca7"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 114.3 0)
 		(unit 1)
@@ -7158,7 +7331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 119.38 0)
+		(at 257.81 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7167,7 +7340,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1ce613b-30a2-46db-a8b4-a4889b0641ea")
 		(property "Reference" "#PWR056"
-			(at 257.81 125.73 0)
+			(at 257.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 124.46 0)
+			(at 257.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 119.38 0)
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 119.38 0)
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 119.38 0)
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VBUS Testpoint"
 			(at 43.18 86.3599 90)
 			(effects
 				(font

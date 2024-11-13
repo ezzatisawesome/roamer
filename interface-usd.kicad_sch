@@ -1589,7 +1589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$2.44"
+		(property "Supplier_1 Unit Price" "2.44"
 			(at 142.24 88.9 0)
 			(effects
 				(font

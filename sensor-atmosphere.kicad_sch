@@ -1118,7 +1118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -1343,7 +1343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1532,6 +1532,87 @@
 			)
 		)
 		(property "Supplier 2 P/N" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "12.35000"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "5.94891"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field21" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -1783,7 +1864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -1792,7 +1873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 162.56 52.07 0)
 			(effects
 				(font

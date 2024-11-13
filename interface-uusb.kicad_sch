@@ -870,7 +870,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "D- TestPoint"
 			(at 161.29 106.1719 0)
 			(effects
 				(font
@@ -1328,7 +1328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "D+ Testpoint"
 			(at 161.29 96.266 0)
 			(effects
 				(font

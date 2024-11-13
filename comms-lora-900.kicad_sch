@@ -2058,7 +2058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -2217,7 +2217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -2443,7 +2443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 123.19 95.25 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 123.19 95.25 0)
 			(effects
 				(font
@@ -2602,7 +2602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -2611,7 +2611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -2828,7 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -2837,7 +2837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Adafruit"
+		(property "Mfr" "Adafruit Industries LLC"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Supplier_1 P/N  0 0 Center Center 0 0  "
+		(property "Supplier_1" "Digikey"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -3045,7 +3045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "3072"
+		(property "Supplier_1 P/N" "1528-1667-ND"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$19.95"
+		(property "Supplier_1 Unit Price" "19.95000"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$15.96"
+		(property "Supplier_1 Price @ Qty" "19.95000"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 171.45 107.95 0)
 			(effects
 				(font
@@ -3330,7 +3330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 171.45 107.95 0)
 			(effects
 				(font
@@ -3704,7 +3704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10000 "
+		(property "Supplier_1 Unit Price" "0.10000 "
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.00304 "
+		(property "Supplier_1 Price @ Qty" "0.00304 "
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -3862,7 +3862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.94000 "
+		(property "Supplier_1 Unit Price" "0.94000 "
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.38945 "
+		(property "Supplier_1 Price @ Qty" "0.38945 "
 			(at 187.96 90.17 0)
 			(effects
 				(font
