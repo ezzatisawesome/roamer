@@ -184,6 +184,7 @@
       ],
       "track_widths": [
         0.0,
+        0.156,
         0.25,
         0.5,
         0.6
@@ -651,7 +652,7 @@
           "group_by": false,
           "label": "Supplier_1 Unit Price",
           "name": "Supplier_1 Unit Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
