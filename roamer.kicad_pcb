@@ -56358,9 +56358,9 @@
 		(at 221.75 156.25)
 		(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
-		(property "Reference" "TP6"
-			(at 0.7 2.5 0)
-			(layer "F.SilkS")
+		(property "Reference" "GND"
+			(at 0 2.5 0)
+			(layer "F.SilkS" knockout)
 			(uuid "6271b681-996d-4c69-ba4c-cbd0afb34838")
 			(effects
 				(font
